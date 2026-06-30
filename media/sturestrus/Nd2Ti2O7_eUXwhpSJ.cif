@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Nd2Ti2O7
+_symmetry_space_group_name_H-M   P2_1
+_cell_length_a   7.67899035
+_cell_length_b   5.48381544
+_cell_length_c   13.10133776
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   98.49493614
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   4
+_chemical_formula_structural   Nd2Ti2O7
+_chemical_formula_sum   'Nd8 Ti8 O28'
+_cell_volume   545.64676794
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, y+1/2, -z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Nd3+  3.0
+  Ti4+  4.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd3+  Nd0  2  0.14885035  0.21939387  0.61684863  1
+  Nd3+  Nd1  2  0.21852563  0.75808772  0.87889385  1
+  Nd3+  Nd2  2  0.27090643  0.24631332  0.09015815  1
+  Nd3+  Nd3  2  0.35483467  0.65137646  0.42814429  1
+  Ti4+  Ti4  2  0.02796326  0.74474305  0.12131742  1
+  Ti4+  Ti5  2  0.08578109  0.21178072  0.32531890  1
+  Ti4+  Ti6  2  0.42612885  0.71936355  0.67984137  1
+  Ti4+  Ti7  2  0.46883504  0.24329395  0.88113244  1
+  O2-  O8  2  0.00282662  0.05017847  0.76954095  1
+  O2-  O9  2  0.03312119  0.98246694  0.97923166  1
+  O2-  O10  2  0.06728176  0.06379798  0.18121635  1
+  O2-  O11  2  0.09076551  0.41900366  0.44170431  1
+  O2-  O12  2  0.12628181  0.92667930  0.38827192  1
+  O2-  O13  2  0.17300557  0.65264264  0.69405045  1
+  O2-  O14  2  0.22729364  0.33259678  0.90841088  1
+  O2-  O15  2  0.27702130  0.68982015  0.10864236  1
+  O2-  O16  2  0.32586975  0.31131643  0.30454170  1
+  O2-  O17  2  0.36965640  0.93613811  0.57086824  1
+  O2-  O18  2  0.38365570  0.04608642  0.77252464  1
+  O2-  O19  2  0.42131073  0.45074434  0.59378814  1
+  O2-  O20  2  0.45682246  0.98175258  0.98109002  1
+  O2-  O21  2  0.47784074  0.55942756  0.81698901  1

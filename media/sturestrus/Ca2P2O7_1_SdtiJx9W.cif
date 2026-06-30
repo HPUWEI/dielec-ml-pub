@@ -1,0 +1,57 @@
+# generated using pymatgen
+data_Ca2P2O7
+_symmetry_space_group_name_H-M   P4_1
+_cell_length_a   6.66605660
+_cell_length_b   6.66605660
+_cell_length_c   24.10239256
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   76
+_chemical_formula_structural   Ca2P2O7
+_chemical_formula_sum   'Ca16 P16 O56'
+_cell_volume   1071.02140313
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y, x, z+1/4'
+  3  '-x, -y, z+1/2'
+  4  'y, -x, z+3/4'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ca2+  2.0
+  P5+  5.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca2+  Ca0  4  0.10584558  0.63374437  0.88525340  1
+  Ca2+  Ca1  4  0.14329978  0.23230047  0.99979629  1
+  Ca2+  Ca2  4  0.15533636  0.54993236  0.24211560  1
+  Ca2+  Ca3  4  0.20555922  0.26065891  0.63771822  1
+  P5+  P4  4  0.05043030  0.71648475  0.01853398  1
+  P5+  P5  4  0.12800566  0.74164693  0.62456297  1
+  P5+  P6  4  0.29157551  0.64774705  0.12093344  1
+  P5+  P7  4  0.31090895  0.37310061  0.77325017  1
+  O2-  O8  4  0.02615853  0.55431909  0.97536416  1
+  O2-  O9  4  0.05574154  0.17955571  0.09551937  1
+  O2-  O10  4  0.09095932  0.26018971  0.89742438  1
+  O2-  O11  4  0.09623010  0.58462882  0.66911581  1
+  O2-  O12  4  0.11952612  0.19023625  0.24905182  1
+  O2-  O13  4  0.14267011  0.20670525  0.54307335  1
+  O2-  O14  4  0.15316693  0.77478438  0.15736246  1
+  O2-  O15  4  0.16119343  0.53278405  0.79253426  1
+  O2-  O16  4  0.16197146  0.58945724  0.06698543  1
+  O2-  O17  4  0.20104253  0.22224305  0.73687069  1
+  O2-  O18  4  0.22366581  0.46674255  0.35136334  1
+  O2-  O19  4  0.25526190  0.61879751  0.57898722  1
+  O2-  O20  4  0.34872061  0.45292272  0.14724367  1
+  O2-  O21  4  0.46422812  0.50393667  0.49998997  1

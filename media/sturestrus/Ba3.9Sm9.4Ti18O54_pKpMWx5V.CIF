@@ -1,0 +1,75 @@
+#### CIF created by Crystallographica 2 ####
+
+data_BariumSamariumTitaniumOxide
+
+_audit_creation_method                    'Crystallographica 2' 
+_cell_angle_alpha                         90 
+_cell_angle_beta                          90 
+_cell_angle_gamma                         90 
+_cell_formula_units_Z                     2 
+_cell_length_a                            12.131 
+_cell_length_b                            22.271 
+_cell_length_c                            7.639 
+_cell_volume                              2063.82 
+_cgraph_comments                         'Science of tungstenbronze-type like Ba6-3x R8+2x Ti18 O54 
+     (R = rare earth) microwave dielectric solid solutions
+'
+_cgraph_title                            'Barium Samarium Titanium Oxide (3.87/9.42/18/54)'
+_chemical_formula_sum                    'Ba3.87 Sm9.42 Ti18 O54'
+_symmetry_space_group_name_H-M           'P b n m'
+_symmetry_space_group_name_Hall          '-P 2c 2ab'
+
+loop_
+        _symmetry_equiv_pos_as_xyz
+        'x, y, z'
+        '-x, -y, -z'
+        '-x, -y, z+1/2'
+        'x, y, -z+1/2'
+        'x+1/2, -y+1/2, -z'
+        '-x+1/2, y+1/2, z'
+        '-x+1/2, y+1/2, -z+1/2'
+        'x+1/2, -y+1/2, z+1/2'
+
+loop_
+        _atom_site_label
+        _atom_site_type_symbol
+        _atom_site_fract_x
+        _atom_site_fract_y
+        _atom_site_fract_z
+        _atom_site_U_iso_or_equiv
+        _atom_site_thermal_displace_type
+        _atom_site_occupancy
+        Ti1 Ti4+ 0 0 0 0.00481276 Uiso 1
+        Ti2 Ti4+ 0.1986 0.4352 0.0005 0.00367289 Uiso 1
+        Ti3 Ti4+ 0.3978 0.1063 0.0065 0.00519271 Uiso 1
+        Ti4 Ti4+ 0.1171 0.1634 0.0026 0.00341959 Uiso 1
+        Ti5 Ti4+ 0.3379 0.2615 0.0019 0.0039262 Uiso 1
+        Ba1 Ba2+ 0.0852 0.3001 0.25 0.00772574 Uiso 0.988
+        Ba2 Ba2+ 0.5958 0.1866 0.25 0.00734579 Uiso 0.948
+        Sm1 Sm3+ 0.1919 0.044 0.25 0.00493941 Uiso 0.792
+        Sm2 Sm3+ 0.7058 0.4486 0.25 0.00493941 Uiso 0.994
+        Sm3 Sm3+ 0.9996 0.494 0.25 0.0041795 Uiso 0.924
+        Sm4 Sm3+ 0.4042 0.3771 0.25 0.00430615 Uiso 1
+        Sm5 Sm3+ 0.9097 0.1241 0.25 0.00493941 Uiso 1
+        O1 O2- 0.0399 0.1721 0.25 0.00734579 Uiso 1
+        O2 O2- 0.6053 0.3701 0.25 0.0046861 Uiso 1
+        O3 O2- 0.4182 0.1925 0.0062 0.00721913 Uiso 1
+        O4 O2- 0.6851 0.2628 0.0219 0.00455945 Uiso 1
+        O5 O2- 0.3121 0.2791 0.25 0.00747244 Uiso 1
+        O6 O2- 0.8457 0.2232 0.25 0.00645923 Uiso 1
+        O7 O2- 0.3771 0.0182 0.0161 0.0088656 Uiso 1
+        O8 O2- 0.2375 0.4427 0.25 0.00772574 Uiso 1
+        O9 O2- 0.6731 0.0549 0.25 0.00683918 Uiso 1
+        O10 O2- 0.2417 0.1114 0.0215 0.00506606 Uiso 1
+        O11 O2- 0.482 0.479 0.25 0.008359 Uiso 1
+        O12 O2- 0.0374 0.0805 0.0487 0.0105121 Uiso 1
+        O13 O2- 0.7698 0.1378 0.0164 0.00899226 Uiso 1
+        O14 O2- 0.8438 0.02 0.0376 0.00823235 Uiso 1
+        O15 O2- 0.0559 0.404 0.0426 0.00645923 Uiso 1
+        O16 O2- 0.464 0.3125 0.0245 0.00658588 Uiso 1
+        O17 O2- 0.4294 0.1006 0.25 0.0107654 Uiso 1
+        O18 O2- 0.8788 0.4042 0.25 0.00848565 Uiso 1
+
+_eof
+
+#### End of Crystallographic Information File ####

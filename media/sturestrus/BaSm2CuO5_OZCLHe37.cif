@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_BaSm2CuO5
+_symmetry_space_group_name_H-M   Pnma
+_cell_length_a   12.47526000
+_cell_length_b   5.80520200
+_cell_length_c   7.38547000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   62
+_chemical_formula_structural   BaSm2CuO5
+_chemical_formula_sum   'Ba4 Sm8 Cu4 O20'
+_cell_volume   534.86610883
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, -y, z+1/2'
+  4  'x+1/2, y, -z+1/2'
+  5  'x+1/2, -y+1/2, -z+1/2'
+  6  '-x+1/2, y+1/2, z+1/2'
+  7  '-x, y+1/2, -z'
+  8  'x, -y+1/2, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ba2+  2.0
+  Sm3+  3.0
+  Cu2+  2.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba2+  Ba0  4  0.09384400  0.75000000  0.06843200  1
+  Sm3+  Sm1  4  0.07415600  0.25000000  0.39525300  1
+  Sm3+  Sm2  4  0.21266700  0.75000000  0.61174100  1
+  Cu2+  Cu3  4  0.16095100  0.25000000  0.78130100  1
+  O2-  O4  8  0.06780000  0.00976700  0.66518100  1
+  O2-  O5  8  0.22788100  0.50676400  0.35052900  1
+  O2-  O6  4  0.09790000  0.25000000  0.07864700  1

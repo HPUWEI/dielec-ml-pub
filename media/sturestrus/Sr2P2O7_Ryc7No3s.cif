@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Sr2P2O7
+_symmetry_space_group_name_H-M   Pnma
+_cell_length_a   8.91691203
+_cell_length_b   5.39609935
+_cell_length_c   13.17812947
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   62
+_chemical_formula_structural   Sr2P2O7
+_chemical_formula_sum   'Sr8 P8 O28'
+_cell_volume   634.08603606
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, -y, z+1/2'
+  4  'x+1/2, y, -z+1/2'
+  5  'x+1/2, -y+1/2, -z+1/2'
+  6  '-x+1/2, y+1/2, z+1/2'
+  7  '-x, y+1/2, -z'
+  8  'x, -y+1/2, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Sr2+  2.0
+  P5+  5.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr2+  Sr0  4  0.12496646  0.75000000  0.91322490  1
+  Sr2+  Sr1  4  0.17207646  0.75000000  0.23979070  1
+  P5+  P2  4  0.03256694  0.75000000  0.68261519  1
+  P5+  P3  4  0.22348305  0.25000000  0.03552135  1
+  O2-  O4  8  0.08375056  0.51737331  0.73767195  1
+  O2-  O5  8  0.14617995  0.01864767  0.07657834  1
+  O2-  O6  4  0.10537368  0.75000000  0.57077255  1
+  O2-  O7  4  0.13445310  0.25000000  0.33340310  1
+  O2-  O8  4  0.22570556  0.25000000  0.92084613  1

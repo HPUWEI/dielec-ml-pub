@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ca2P2O7
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   5.32402922
+_cell_length_b   8.49548206
+_cell_length_c   13.70958640
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   112.70150092
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   Ca2P2O7
+_chemical_formula_sum   'Ca8 P8 O28'
+_cell_volume   572.04785006
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ca2+  2.0
+  P5+  5.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca2+  Ca0  4  0.02273327  0.18701270  0.76535075  1
+  Ca2+  Ca1  4  0.35285802  0.11263274  0.09003644  1
+  P5+  P2  4  0.29538551  0.73540744  0.52718363  1
+  P5+  P3  4  0.40815800  0.51198425  0.18090026  1
+  O2-  O4  4  0.07182926  0.65909315  0.55403031  1
+  O2-  O5  4  0.24028364  0.74040592  0.41103529  1
+  O2-  O6  4  0.25170410  0.59776605  0.23655490  1
+  O2-  O7  4  0.28633096  0.03278250  0.25802148  1
+  O2-  O8  4  0.31533511  0.15648963  0.66323501  1
+  O2-  O9  4  0.33223234  0.58617679  0.06558880  1
+  O2-  O10  4  0.43663778  0.14583685  0.91607716  1

@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Sm2SiO5
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   9.19238191
+_cell_length_b   7.12477742
+_cell_length_c   6.80218648
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   107.78802311
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   Sm2SiO5
+_chemical_formula_sum   'Sm8 Si4 O20'
+_cell_volume   424.20228493
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Sm3+  3.0
+  Si4+  4.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm3+  Sm0  4  0.02528453  0.12379193  0.23445441  1
+  Sm3+  Sm1  4  0.38806094  0.14834194  0.08768460  1
+  Si4+  Si2  4  0.29788822  0.58595137  0.04174451  1
+  O2-  O3  4  0.11597469  0.63673230  0.99257161  1
+  O2-  O4  4  0.11744737  0.12120322  0.95113553  1
+  O2-  O5  4  0.29599643  0.06870774  0.36057948  1
+  O2-  O6  4  0.36545030  0.04101433  0.74856135  1
+  O2-  O7  4  0.40531002  0.73453267  0.55586782  1

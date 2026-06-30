@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_BaGa2(SiO4)2
+_symmetry_space_group_name_H-M   C2/c
+_cell_length_a   13.66411200
+_cell_length_b   13.40250800
+_cell_length_c   8.84834120
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   100.86043694
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   15
+_chemical_formula_structural   BaGa2(SiO4)2
+_chemical_formula_sum   'Ba8 Ga16 Si16 O64'
+_cell_volume   1591.40316691
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z+1/2'
+  4  'x, -y, z+1/2'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z+1/2'
+  8  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ba2+  2.0
+  Ga3+  3.0
+  Si4+  4.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba2+  Ba0  8  0.18545700  0.25067500  0.71442200  1
+  Ga3+  Ga1  8  0.07586550  0.12455750  0.03541600  1
+  Ga3+  Ga2  8  0.13015800  0.43446700  0.38630400  1
+  Si4+  Si3  8  0.07639100  0.36206200  0.02162600  1
+  Si4+  Si4  8  0.14409650  0.07073150  0.40476300  1
+  O2-  O5  8  0.04477050  0.36755750  0.49138800  1
+  O2-  O6  8  0.06063750  0.11989150  0.49489500  1
+  O2-  O7  8  0.10692050  0.24997150  0.96869900  1
+  O2-  O8  8  0.11581250  0.43062850  0.89089200  1
+  O2-  O9  8  0.13324950  0.05042250  0.89932900  1
+  O2-  O10  8  0.13764400  0.38296700  0.19615100  1
+  O2-  O11  8  0.14418200  0.11797500  0.23431800  1
+  O2-  O12  8  0.24961800  0.11561400  0.50471900  1

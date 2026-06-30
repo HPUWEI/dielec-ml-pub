@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_Ca3HfSi2O9
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   7.35868433
+_cell_length_b   10.13786068
+_cell_length_c   10.42241024
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   91.27834490
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   Ca3HfSi2O9
+_chemical_formula_sum   'Ca12 Hf4 Si8 O36'
+_cell_volume   777.33200881
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ca2+  2.0
+  Hf4+  4.0
+  Si4+  4.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca2+  Ca0  4  0.11817447  0.16875665  0.58690281  1
+  Ca2+  Ca1  4  0.36455595  0.07876779  0.88875336  1
+  Ca2+  Ca2  4  0.37241051  0.69456039  0.90031040  1
+  Hf4+  Hf3  4  0.12095542  0.56155613  0.61542232  1
+  Si4+  Si4  4  0.16777838  0.62345960  0.18275213  1
+  Si4+  Si5  4  0.40107719  0.13634243  0.30744077  1
+  O2-  O6  4  0.08432764  0.00261390  0.75608391  1
+  O2-  O7  4  0.09206490  0.11173384  0.01121441  1
+  O2-  O8  4  0.10529940  0.73372810  0.73779496  1
+  O2-  O9  4  0.14401920  0.61111582  0.03027941  1
+  O2-  O10  4  0.30327732  0.00151459  0.26058366  1
+  O2-  O11  4  0.33865946  0.60932656  0.51632436  1
+  O2-  O12  4  0.35599213  0.23278181  0.72340741  1
+  O2-  O13  4  0.37920219  0.16820895  0.45725510  1
+  O2-  O14  4  0.38371631  0.60686363  0.22782367  1

@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_BaEu2ZnO5
+_symmetry_space_group_name_H-M   Pnma
+_cell_length_a   12.68675500
+_cell_length_b   5.84281100
+_cell_length_c   7.30411500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   62
+_chemical_formula_structural   BaEu2ZnO5
+_chemical_formula_sum   'Ba4 Eu8 Zn4 O20'
+_cell_volume   541.42710495
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, -y, z+1/2'
+  4  'x+1/2, y, -z+1/2'
+  5  'x+1/2, -y+1/2, -z+1/2'
+  6  '-x+1/2, y+1/2, z+1/2'
+  7  '-x, y+1/2, -z'
+  8  'x, -y+1/2, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ba2+  2.0
+  Eu3+  3.0
+  Zn2+  2.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba2+  Ba0  4  0.09937000  0.75000000  0.07629600  1
+  Eu3+  Eu1  4  0.07228200  0.25000000  0.39453300  1
+  Eu3+  Eu2  4  0.21013600  0.75000000  0.61771400  1
+  Zn2+  Zn3  4  0.15004600  0.25000000  0.80563000  1
+  O2-  O4  8  0.06403500  0.00769300  0.67168500  1
+  O2-  O5  8  0.22615200  0.50522900  0.35320400  1
+  O2-  O6  4  0.09852600  0.25000000  0.06637800  1

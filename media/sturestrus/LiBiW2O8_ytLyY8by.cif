@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_LiBi(WO4)2
+_symmetry_space_group_name_H-M   P2/c
+_cell_length_a   5.15280400
+_cell_length_b   5.99695000
+_cell_length_c   11.20738226
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   113.99962485
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   13
+_chemical_formula_structural   LiBi(WO4)2
+_chemical_formula_sum   'Li2 Bi2 W4 O16'
+_cell_volume   316.38046840
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z+1/2'
+  4  'x, -y, z+1/2'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Li+  1.0
+  Bi3+  3.0
+  W6+  6.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li+  Li0  2  0.00000000  0.27682600  0.75000000  1
+  Bi3+  Bi1  2  0.50000000  0.33626500  0.25000000  1
+  W6+  W2  4  0.26405800  0.16715900  0.51091600  1
+  O2-  O3  4  0.14961000  0.10823600  0.09434300  1
+  O2-  O4  4  0.23258400  0.35326500  0.63536600  1
+  O2-  O5  4  0.26834000  0.37262400  0.38999300  1
+  O2-  O6  4  0.34406400  0.09195100  0.89484700  1

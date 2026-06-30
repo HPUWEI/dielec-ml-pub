@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Mn4Nb2O9
+_symmetry_space_group_name_H-M   P-3c1
+_cell_length_a   5.29742379
+_cell_length_b   5.29742379
+_cell_length_c   14.35623460
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   165
+_chemical_formula_structural   Mn4Nb2O9
+_chemical_formula_sum   'Mn8 Nb4 O18'
+_cell_volume   348.89971415
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-y, x-y, z'
+  4  'y, -x+y, -z'
+  5  '-x+y, -x, z'
+  6  'x-y, x, -z'
+  7  'y, x, -z+1/2'
+  8  '-y, -x, z+1/2'
+  9  'x-y, -y, -z+1/2'
+  10  '-x+y, y, z+1/2'
+  11  '-x, -x+y, -z+1/2'
+  12  'x, x-y, z+1/2'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Mn2+  2.0
+  Nb5+  5.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn2+  Mn0  4  0.33333333  0.66666667  0.19712021  1
+  Mn2+  Mn1  4  0.33333333  0.66666667  0.48354501  1
+  Nb5+  Nb2  4  0.00000000  0.00000000  0.14176102  1
+  O2-  O3  12  0.02537516  0.34138772  0.58485532  1
+  O2-  O4  6  0.00000000  0.28271136  0.25000000  1

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+        }
+        .navbar {
+            background-color: #660874;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #603ea8;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 8px;
+        }
+        input[type="text"],
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        button:active {
+            background-color: #3e8e41;
+            transform: translateY(2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'calculate' %}">Project</a>
+    <a href="{% url 'record_list' %}">Database</a>
+    <a href="{% url 'ML' %}">ML</a>
+    <a href="{% url 'illustration' %}">Support</a>
+    <a href="{% url 'about' %}">About</a>
+    </div>
+
+    <h1>Upload Form</h1>
+    <div class="container">
+        <form action="{% url 'upload_file' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-group">
+                <label for="structure">Structure</label>
+                <p>(The file name must be represented using chemical symbols)</p>
+                <input type="file" id="structure" name="Structure" accept=".cif">
+            </div>
+            <div class="form-group">
+                <label for="features">Features</label>
+                <input type="file" id="features" name="Features" accept=".xlsx,.xls,.csv">
+            </div>
+            <div class="form-group">
+                <label for="performance">Performance</label>
+                <input type="text" id="k" name="Performance[k]" placeholder="Enter κ value">
+                <input type="text" id="tanò" name="Performance[tanò]" placeholder="Enter tanδ value">
+                <input type="text" id="TCK" name="Performance[TCK]" placeholder="Enter TCκ value">
+            </div>
+            <div class="form-group">
+                <label for="note">Note</label>
+                <input type="text" id="note" name="Note" placeholder="Enter notes about your data including the preparation methods, measurements, etc">
+            </div>
+            <div class="form-group">
+                <label for="reference">Reference</label>
+                <input type="text" id="reference" name="Reference" placeholder="Enter references about your data where they are from, such as published papers">
+            </div>
+            <div class="form-group">
+                <label for="uploader">Uploader</label>
+                <input type="text" id="uploader" name="Uploader" placeholder="Enter uploader name">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

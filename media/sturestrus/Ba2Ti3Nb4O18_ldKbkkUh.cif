@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ba2Ti3Nb4O18
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   10.17062561
+_cell_length_b   10.07495900
+_cell_length_c   7.51322700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   111.47494294
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   Ba2Ti3Nb4O18
+_chemical_formula_sum   'Ba4 Ti6 Nb8 O36'
+_cell_volume   716.42401456
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ba2+  2.0
+  Ti4+  4.0
+  Nb5+  5.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba2+  Ba0  4  0.20468400  0.08715100  0.06644300  1
+  Ti4+  Ti1  4  0.37575700  0.01505700  0.59206300  1
+  Ti4+  Ti2  2  0.00000000  0.00000000  0.50000000  1
+  Nb5+  Nb3  4  0.10291400  0.74580100  0.84833800  1
+  Nb5+  Nb4  4  0.48516200  0.72787300  0.48694300  1
+  O2-  O5  4  0.01703700  0.58935100  0.24428600  1
+  O2-  O6  4  0.06929500  0.16128100  0.64306400  1
+  O2-  O7  4  0.09857500  0.66467400  0.62371300  1
+  O2-  O8  4  0.19184300  0.56709300  0.02216500  1
+  O2-  O9  4  0.29770400  0.67510000  0.45787800  1
+  O2-  O10  4  0.32126200  0.17099700  0.46105200  1
+  O2-  O11  4  0.40592900  0.09298100  0.83975900  1
+  O2-  O12  4  0.41847800  0.58346600  0.88732200  1
+  O2-  O13  4  0.49146200  0.65979500  0.24972600  1

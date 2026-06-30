@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ca2NdTaO6
+_symmetry_space_group_name_H-M   Pc
+_cell_length_a   5.65928500
+_cell_length_b   5.93604700
+_cell_length_c   9.95243680
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.43853938
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   7
+_chemical_formula_structural   Ca2NdTaO6
+_chemical_formula_sum   'Ca4 Nd2 Ta2 O12'
+_cell_volume   275.74132071
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, z+1/2'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ca2+  2.0
+  Nd3+  3.0
+  Ta5+  5.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca2+  Ca0  2  0.50022600  0.24704700  0.49953700  1
+  Ca2+  Ca1  2  0.73078900  0.19539600  0.24481100  1
+  Nd3+  Nd2  2  0.27053300  0.30664600  0.75550800  1
+  Ta5+  Ta3  2  0.00154700  0.24897800  0.00136000  1
+  O2-  O4  2  0.11345000  0.30754000  0.22931100  1
+  O2-  O5  2  0.24009100  0.03594600  0.57212900  1
+  O2-  O6  2  0.34173100  0.42784900  0.05184900  1
+  O2-  O7  2  0.65406800  0.07498900  0.94616100  1
+  O2-  O8  2  0.75644500  0.46888900  0.42858600  1
+  O2-  O9  2  0.89111900  0.19316600  0.77074700  1

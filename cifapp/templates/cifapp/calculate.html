@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIF File Upload</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            padding: 0;
+            margin: 20px
+        }
+        p {
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+        .navbar {
+            background-color: #660874;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #603ea8;
+        }
+        .content {
+            padding: 20px;
+        }
+        .hidden {
+            display: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            min-height: 600px;
+        }
+        .upload-box {
+            border: 2px dashed #cccccc;
+            border-radius: 10px;
+            background-color: #ffffff;
+            text-align: center;
+            padding: 40px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .upload-box:hover {
+            border-color: #888888;
+        }
+        .upload-box input[type="file"] {
+            display: none;
+        }
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .button-group button, #download-container button {
+            padding: 12px 24px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .button-group button:hover, #download-container button:hover {
+            background-color: #45a049;
+        }
+        .button-group button:active, #download-container button:active {
+            background-color: #3e8e41;
+            transform: translateY(2px); /* Slightly depresses the button */
+        }
+        .button-group button:focus, #download-container button:focus {
+            outline: none; /* Remove default focus outline */
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.75); /* Add custom focus outline */
+        }
+        .result-box {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #cccccc;
+            border-radius: 10px;
+            background-color: #ffffff;
+            min-height: 100px;
+            max-height: 250px; /* 设置一个最大高度，或者根据需要调整 */
+            overflow-y: auto; /* 启用垂直滚动条 */
+        }
+        .table-container {
+            margin-top: 20px;
+            display: none;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            background-color: rgba(233, 238, 238, 0.87);
+        }
+        th {
+            background-color: #da5319;
+        }
+        td input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+        }
+        td.checkbox-cell {
+            background-color: rgba(233, 238, 238, 0.87);
+        }
+        td, th {
+            border: 2px solid white;
+        }
+        #download-container {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'calculate' %}">Project</a>
+    <a href="{% url 'record_list' %}">Database</a>
+    <a href="{% url 'ML' %}">ML</a>
+    <a href="{% url 'illustration' %}">Support</a>
+    <a href="{% url 'about' %}">About</a>
+</div>
+    <div class="container">
+        <h1>Crystal Structure Upload</h1>
+        <form id="upload-form" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <label class="upload-box">
+                Drag & Drop a CIF File Here or Click to Upload
+                <input type="file" name="cif_file" id="file-input" accept=".cif">
+            </label>
+            <div class="button-group">
+                <button type="submit" class="upload-button">Upload</button>
+                <button type="button" class="upload-button" id="show-button">Show</button>
+            </div>
+        </form>
+
+        <!-- Result Display Section -->
+        <div class="result-box" id="result-box">
+            {% if result %}
+                <h3>Uploaded File:</h3>
+                <p><pre>{{ result }}</pre></p>
+            {% else %}
+                <p>No file uploaded yet.</p>
+            {% endif %}
+        </div>
+
+        <!-- Table Section -->
+        <div class="table-container" id="table-container" style="display: none;">
+            <h3>Calculated Structure Information:</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Check</th>
+                        <th>Abbreviation</th>
+                        <th>Description</th>
+                        <th>Mechanism/Theory</th>
+                        <th>Values</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox" name="blm"></td>
+                    <td>blm</td>
+                    <td>Average bond length</td>
+                    <td>P-V-L Theory</td>
+                    <td id="blm-value">{{ results.0.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox" name="blsd"></td>
+                    <td>blsd</td>
+                    <td>Standard deviation of bond length</td>
+                    <td>Local Symmetry</td>
+                    <td id="blsd-value">{{ results.1.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox" name="sm"></td>
+                    <td>sm</td>
+                    <td>Average bond strength</td>
+                    <td>P-V-L Theory</td>
+                    <td id="sm-value">{{ results.2.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>ssd</td>
+                    <td>Standard deviation of bond strength</td>
+                    <td>Local Symmetry</td>
+                    <td id="ssd-value">{{ results.3.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>com</td>
+                    <td>Average covalency</td>
+                    <td>Chemical Bond Characteristics</td>
+                    <td id="com-value">{{ results.4.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>cosd</td>
+                    <td>Standard deviation of covalency</td>
+                    <td>Chemical Bond Characteristics</td>
+                    <td id="abv-value">{{ results.5.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>Em</td>
+                    <td>Average bond energy</td>
+                    <td>P-V-L Theory</td>
+                    <td id="def-value">{{ results.6.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>Ev</td>
+                    <td>Average bond energy per unit volume</td>
+                    <td>P-V-L Theory</td>
+                    <td id="exm-value">{{ results.7.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>Esd</td>
+                    <td>Standard deviation of bond energy</td>
+                    <td>P-V-L Theory</td>
+                    <td id="xyz-value">{{ results.8.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>bvsdm</td>
+                    <td>Average of standard deviations of bond valence</td>
+                    <td>Rattling Effect</td>
+                    <td id="lmn-value">{{ results.9.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>devvm</td>
+                    <td>Average of BVS deviations from nominal valence</td>
+                    <td>Rattling Effect</td>
+                    <td id="pqr-value">{{ results.10.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>vi</td>
+                    <td>Total ionic volume</td>
+                    <td>Local Structure</td>
+                    <td id="rst-value">{{ results.11.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>pd</td>
+                    <td>Packing fraction</td>
+                    <td>Local Structure</td>
+                    <td id="uvw-value">{{ results.12.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>via</td>
+                    <td>Ionic volume per unit atom</td>
+                    <td>Local Structure</td>
+                    <td id="lkl-value">{{ results.13.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>pm</td>
+                    <td>Molecular dielectric polarizability</td>
+                    <td>Clausius-Mossotti Equation</td>
+                    <td id="asd-value">{{ results.14.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>pa</td>
+                    <td>Molecular dielectric polarizability per unit atom</td>
+                    <td>Clausius-Mossotti Equation</td>
+                    <td id="vbn-value">{{ results.15.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>pv</td>
+                    <td>Molecular dielectric polarizability per unit volume</td>
+                    <td>Clausius-Mossotti Equation</td>
+                    <td id="qwe-value">{{ results.16.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>lsd</td>
+                    <td>Lattice constant-edge length standard deviation</td>
+                    <td>Lattice Symmetry</td>
+                    <td id="jkl-value">{{ results.17.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>asd</td>
+                    <td>Lattice constant-angle standard deviation</td>
+                    <td>Lattice Symmetry</td>
+                    <td id="mno-value">{{ results.18.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>vm</td>
+                    <td>Unit cell volume</td>
+                    <td>Clausius-Mossotti Equation</td>
+                    <td id="stu-value">{{ results.19.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>m</td>
+                    <td>Relative molecular mass</td>
+                    <td>Elemental Feature</td>
+                    <td id="klp-value">{{ results.20.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>d</td>
+                    <td>Theoretical density</td>
+                    <td>Dilution Effect</td>
+                    <td id="gfk-value">{{ results.21.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>va</td>
+                    <td>Unit cell volume per unit atom</td>
+                    <td>Clausius-Mossotti Equation</td>
+                    <td id="hij-value">{{ results.22.value }}</td>
+                </tr>
+                <tr>
+                    <td class="checkbox-cell"><input type="checkbox"></td>
+                    <td>Gll</td>
+                    <td>Unit cell volume per unit molecule</td>
+                    <td>Local Structure</td>
+                    <td id="iop-value">{{ results.23.value }}</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+
+        <!-- Download Button Section -->
+        <div id="download-container">
+            <button type="button" id="download-button">Download Results</button>
+        </div>
+    </div>
+
+    <script>
+        // Display the table and show download button when "Show" button is clicked
+        document.getElementById('show-button').addEventListener('click', function() {
+            document.getElementById('table-container').style.display = 'block';
+            document.getElementById('download-container').style.display = 'block';
+        });
+
+        // Handle download button click to save data as CSV
+        document.getElementById('download-button').addEventListener('click', function() {
+            const table = document.querySelector("table");
+            const rows = table.rows;
+            const data = [];
+
+            // Add header row to CSV
+            const header = ['Abbreviation', 'Description', 'Mechanism/Theory', 'Values'];
+            data.push(header);
+
+            for (let i = 1; i < rows.length; i++) {
+                const cells = rows[i].cells;
+                const checkbox = cells[0].querySelector("input[type='checkbox']").checked;
+                const abbreviation = cells[1].textContent;
+                const description = cells[2].textContent;
+                const mechanism = cells[3].textContent;
+                const value = cells[4].textContent;
+
+                if (checkbox) {
+                    data.push([abbreviation, description, mechanism, value]);
+                }
+            }
+
+            // Convert array to CSV format
+            const csvContent = data.map(row => row.join(',')).join('\n');
+
+            // Create and download CSV file
+            const blob = new Blob([csvContent], { type: 'text/csv' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "material_properties.csv";
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+    </script>
+</body>
+</html>

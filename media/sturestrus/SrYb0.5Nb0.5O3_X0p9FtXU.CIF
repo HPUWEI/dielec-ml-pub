@@ -1,0 +1,47 @@
+#### CIF created by Crystallographica 2 ####
+
+data_StrontiumNiobiumYtterbiumOxide
+
+_audit_creation_method                    'Crystallographica 2' 
+_cell_angle_alpha                         90 
+_cell_angle_beta                          90.126 
+_cell_angle_gamma                         90 
+_cell_formula_units_Z                     4 
+_cell_length_a                            5.79095 
+_cell_length_b                            5.8221 
+_cell_length_c                            8.20358 
+_cell_volume                              276.587 
+_cgraph_comments                         'The crystal structure of B-site ordered complex perovskite 
+     Sr Yb0.5 Nb0.5 O3
+'
+_cgraph_title                            'Strontium Niobium Ytterbium Oxide (1/0.5/0.5/3)'
+_chemical_formula_sum                    'Sr (Nb0.5 Yb0.5) O3'
+_symmetry_space_group_name_H-M           'P 21/c'
+_symmetry_space_group_name_Hall          '-P 2yn'
+
+loop_
+        _symmetry_equiv_pos_as_xyz
+        'x, y, z'
+        '-x, -y, -z'
+        '-x+1/2, y+1/2, -z+1/2'
+        'x+1/2, -y+1/2, z+1/2'
+
+loop_
+        _atom_site_label
+        _atom_site_type_symbol
+        _atom_site_fract_x
+        _atom_site_fract_y
+        _atom_site_fract_z
+        _atom_site_U_iso_or_equiv
+        _atom_site_thermal_displace_type
+        _atom_site_occupancy
+        Sr1 Sr2+ 0.005 0.0271 0.2511 0.008359 Uiso 1
+        Yb2 Yb3+ 0.5 0 0 0.00405285 Uiso 1
+        Nb3 Nb5+ 0 0.5 0 0.00329294 Uiso 1
+        O1 O2- 0.199 0.773 0.037 0.00839699 Uiso 1
+        O2 O2- 0.27 0.301 0.035 0.00839699 Uiso 1
+        O3 O2- 0.43 0.015 -0.262 0.00839699 Uiso 1
+
+_eof
+
+#### End of Crystallographic Information File ####

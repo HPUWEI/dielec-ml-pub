@@ -1,0 +1,57 @@
+# generated using pymatgen
+data_BaV2(CuO4)2
+_symmetry_space_group_name_H-M   I-42d
+_cell_length_a   13.10184200
+_cell_length_b   13.10184200
+_cell_length_c   8.20727600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   122
+_chemical_formula_structural   BaV2(CuO4)2
+_chemical_formula_sum   'Ba8 V16 Cu16 O64'
+_cell_volume   1408.84674863
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'y, -x, -z'
+  3  '-x, -y, z'
+  4  '-y, x, -z'
+  5  'x, -y+1/2, -z+1/4'
+  6  'y, x+1/2, z+1/4'
+  7  '-x, y+1/2, -z+1/4'
+  8  '-y, -x+1/2, z+1/4'
+  9  'x+1/2, y+1/2, z+1/2'
+  10  'y+1/2, -x+1/2, -z+1/2'
+  11  '-x+1/2, -y+1/2, z+1/2'
+  12  '-y+1/2, x+1/2, -z+1/2'
+  13  'x+1/2, -y, -z+3/4'
+  14  'y+1/2, x, z+3/4'
+  15  '-x+1/2, y, -z+3/4'
+  16  '-y+1/2, -x, z+3/4'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ba2+  2.0
+  V5+  5.0
+  Cu2+  2.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba2+  Ba0  4  0.00000000  0.00000000  0.00000000  1
+  Ba2+  Ba1  4  0.00000000  0.00000000  0.50000000  1
+  V5+  V2  8  0.04855300  0.25000000  0.62500000  1
+  V5+  V3  8  0.10009000  0.75000000  0.12500000  1
+  Cu2+  Cu4  16  0.15659550  0.17674950  0.25733550  1
+  O2-  O5  16  0.02295600  0.66155700  0.03491200  1
+  O2-  O6  16  0.02707000  0.65809900  0.52525900  1
+  O2-  O7  16  0.12473500  0.18346400  0.48727300  1
+  O2-  O8  16  0.17438000  0.67766300  0.27082800  1

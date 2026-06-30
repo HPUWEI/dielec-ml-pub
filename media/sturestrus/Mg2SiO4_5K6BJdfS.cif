@@ -1,0 +1,51 @@
+#### CIF created by Crystallographica 2 ####
+
+data_MagnesiumSilicate
+
+_audit_creation_method                    'Crystallographica 2' 
+_cell_angle_alpha                         90 
+_cell_angle_beta                          90 
+_cell_angle_gamma                         90 
+_cell_formula_units_Z                     4 
+_cell_length_a                            4.7535 
+_cell_length_b                            10.1943 
+_cell_length_c                            5.9807 
+_cell_volume                              289.816 
+_cgraph_comments                         'Effects of temperature and pressure on the crystal 
+     structure of Forsterite
+'
+_cgraph_title                            'Magnesium Silicate'
+_chemical_formula_sum                    'Mg2 Si O4'
+_symmetry_space_group_name_H-M           'P b n m'
+_symmetry_space_group_name_Hall          '-P 2c 2ab'
+
+loop_
+        _symmetry_equiv_pos_as_xyz
+        'x, y, z'
+        '-x, -y, -z'
+        '-x, -y, z+1/2'
+        'x, y, -z+1/2'
+        'x+1/2, -y+1/2, -z'
+        '-x+1/2, y+1/2, z'
+        '-x+1/2, y+1/2, -z+1/2'
+        'x+1/2, -y+1/2, z+1/2'
+
+loop_
+        _atom_site_label
+        _atom_site_type_symbol
+        _atom_site_fract_x
+        _atom_site_fract_y
+        _atom_site_fract_z
+        _atom_site_U_iso_or_equiv
+        _atom_site_thermal_displace_type
+        _atom_site_occupancy
+        Mg1 Mg2+ 0 0 0 0 Uiso 1
+        Mg2 Mg2+ 0.9915 0.2774 0.25 0 Uiso 1
+        Si1 Si4+ 0.4262 0.094 0.25 0 Uiso 1
+        O1 O2- 0.7657 0.0913 0.25 0 Uiso 1
+        O2 O2- 0.2215 0.4474 0.25 0 Uiso 1
+        O3 O2- 0.2777 0.1628 0.0331 0 Uiso 1
+
+_eof
+
+#### End of Crystallographic Information File ####

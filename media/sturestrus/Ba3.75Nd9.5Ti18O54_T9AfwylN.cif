@@ -1,0 +1,102 @@
+data_156360-ICSD
+#?2009 by Fachinformationszentrum Karlsruhe, and the U.S. Secretary of 
+#Commerce on behalf of the United States.  All rights reserved.
+_database_code_ICSD                156360
+_audit_creation_date               2007/08/01
+_chemical_name_systematic
+;
+Barium Neodymium Titanate (3.75/9.5/18)
+;
+_chemical_formula_structural       'Ba3.75 Nd9.5 (Ti O3)18'
+_chemical_formula_sum              'Ba3.75 Nd9.5 O54 Ti18'
+_publ_section_title
+;
+Upper limit of x in Ba6-3x Nd8+2x Ti18 O54 new tungsten bronze solid 
+solution
+;
+loop_
+_citation_id
+_citation_journal_abbrev
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of the European Ceramic Society' 2007 27 3011 3016 JECSER
+_publ_author_name
+;
+Zhang, L.;Chen, X.-M.;Qin, N.;Liu, X.-Q.
+;
+_cell_length_a                     12.1899(4)
+_cell_length_b                     22.3174(7)
+_cell_length_c                     7.6862(2)
+_cell_angle_alpha                  90.
+_cell_angle_beta                   90.
+_cell_angle_gamma                  90.
+_cell_volume                       2091.01
+_cell_formula_units_Z              2
+_symmetry_space_group_name_H-M     'P b n m'
+_symmetry_Int_Tables_number        62
+_refine_ls_R_factor_all            0.0395
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+  1	'-x+1/2, y+1/2, z'
+  2	'x, y, -z+1/2'
+  3	'x+1/2, -y+1/2, z+1/2'
+  4	'-x, -y, -z'
+  5	'x+1/2, -y+1/2, -z'
+  6	'-x, -y, z+1/2'
+  7	'-x+1/2, y+1/2, -z+1/2'
+  8	'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ba2+	2
+Nd3+	3
+O2-	-2
+Ti4+	4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+Ti1 Ti4+ 4 a 0. 0. 0. 1. 0 
+Ti2 Ti4+ 8 d 0.1996(5) 0.4350(2) -0.0111(15) 1. 0 
+Ti3 Ti4+ 8 d 0.3914(5) 0.1094(3) 0.0109(19) 1. 0 
+Ti4 Ti4+ 8 d 0.1170(5) 0.1626(2) -0.0084(15) 1. 0 
+Ti5 Ti4+ 8 d 0.3348(4) 0.2598(2) -0.0128(16) 1. 0 
+Ba1 Ba2+ 4 c 0.0913(5) 0.30317(19) 0.250 1. 0 
+Ba2 Ba2+ 4 c 0.5883(5) 0.1872(2) 0.250 0.85 0 
+Nd1 Nd3+ 4 c 0.2013(5) 0.0498(2) 0.250 0.819(4) 0 
+Nd2 Nd3+ 4 c 0.7031(5) 0.4514(3) 0.250 1. 0 
+Nd3 Nd3+ 4 c 0.0073(5) 0.4918(2) 0.250 0.931(4) 0 
+Nd4 Nd3+ 4 c 0.4006(4) 0.3796(2) 0.250 1. 0 
+Nd5 Nd3+ 4 c 0.9092(4) 0.1211(2) 0.250 1. 0 
+O1 O2- 4 c 0.095(3) 0.1437(12) 0.250 1. 0 
+O2 O2- 4 c 0.558(2) 0.3100(14) 0.250 1. 0 
+O3 O2- 8 d 0.4064(14) 0.1964(8) 0.013(4) 1. 0 
+O4 O2- 8 d 0.6778(12) 0.2649(7) -0.013(4) 1. 0 
+O5 O2- 4 c 0.314(3) 0.2877(15) 0.250 1. 0 
+O6 O2- 4 c 0.850(3) 0.2223(15) 0.250 1. 0 
+O7 O2- 8 d 0.3621(14) 0.0177(7) 0.006(5) 1. 0 
+O8 O2- 4 c 0.234(2) 0.4509(15) 0.250 1. 0 
+O9 O2- 4 c 0.677(2) 0.0679(14) 0.250 1. 0 
+O10 O2- 8 d 0.2428(15) 0.1132(7) 0.053(3) 1. 0 
+O11 O2- 4 c 0.504(4) 0.4798(12) 0.250 1. 0 
+O12 O2- 8 d 0.0551(16) 0.0754(8) 0.072(2) 1. 0 
+O13 O2- 8 d 0.7662(13) 0.1361(7) -0.006(5) 1. 0 
+O14 O2- 8 d 0.8559(14) 0.0188(7) 0.008(6) 1. 0 
+O15 O2- 8 d 0.0492(14) 0.4011(8) 0.041(3) 1. 0 
+O16 O2- 8 d 0.4466(15) 0.3165(8) 0.031(3) 1. 0 
+O17 O2- 4 c 0.419(3) 0.1026(13) 0.250 1. 0 
+O18 O2- 4 c 0.889(3) 0.4106(15) 0.250 1. 0 
+
+#End of data_156360-ICSD
+
+

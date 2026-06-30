@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_CaSiO3
+_symmetry_space_group_name_H-M   C2/c
+_cell_length_a   11.95219400
+_cell_length_b   6.93593200
+_cell_length_c   10.61770469
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   111.28000029
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   15
+_chemical_formula_structural   CaSiO3
+_chemical_formula_sum   'Ca12 Si12 O36'
+_cell_volume   820.18945753
+_cell_formula_units_Z   12
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y, -z+1/2'
+  4  'x, -y, z+1/2'
+  5  'x+1/2, y+1/2, z'
+  6  '-x+1/2, -y+1/2, -z'
+  7  '-x+1/2, y+1/2, -z+1/2'
+  8  'x+1/2, -y+1/2, z+1/2'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ca2+  2.0
+  Si4+  4.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca2+  Ca0  8  0.08777650  0.23849650  0.49900100  1
+  Ca2+  Ca1  4  0.25000000  0.25000000  0.00000000  1
+  Si4+  Si2  8  0.12783250  0.45294850  0.24467700  1
+  Si4+  Si3  4  0.00000000  0.16040100  0.75000000  1
+  O2-  O4  8  0.04987850  0.05674250  0.89473100  1
+  O2-  O5  8  0.11149350  0.30639150  0.74751300  1
+  O2-  O6  8  0.12827750  0.40393950  0.09661700  1
+  O2-  O7  8  0.22867600  0.39941600  0.38796800  1
+  O2-  O8  4  0.00000000  0.35793600  0.25000000  1

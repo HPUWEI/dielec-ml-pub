@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Ta2ZnO6
+_symmetry_space_group_name_H-M   Pbcn
+_cell_length_a   4.70869443
+_cell_length_b   17.12862714
+_cell_length_c   5.07072060
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   60
+_chemical_formula_structural   Ta2ZnO6
+_chemical_formula_sum   'Ta8 Zn4 O24'
+_cell_volume   408.97121791
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, -y+1/2, z+1/2'
+  4  'x+1/2, y+1/2, -z+1/2'
+  5  'x+1/2, -y+1/2, -z'
+  6  '-x+1/2, y+1/2, z'
+  7  '-x, y, -z+1/2'
+  8  'x, -y, z+1/2'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ta5+  5.0
+  Zn2+  2.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta5+  Ta0  4  0.00000000  0.21967933  0.25000000  1
+  Ta5+  Ta1  4  0.00000000  0.44430991  0.75000000  1
+  Zn2+  Zn2  4  0.00000000  0.10295985  0.75000000  1
+  O2-  O3  8  0.21892109  0.46451425  0.07220269  1
+  O2-  O4  8  0.23004050  0.12869467  0.09871910  1
+  O2-  O5  8  0.23865234  0.21044853  0.57397208  1

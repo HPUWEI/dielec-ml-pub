@@ -1,0 +1,106 @@
+data_50603-ICSD
+
+_database_code_ICSD                50603
+_audit_creation_date               2000/07/15
+_audit_update_record               2008/02/01
+_chemical_name_systematic
+;
+Barium Samarium Titanium Oxide (4.5/9/18/54)
+;
+_chemical_formula_structural       'Ba4.5 Sm9 Ti18 O54'
+_chemical_formula_sum              'Ba4.5 O54 Sm9 Ti18'
+_publ_section_title
+;
+Tungsten bronze-type solid solutions Ba(6-3x) Sm(8+2x) Ti18 O54 (x = 
+0.3, 0.5, 0.67, 0.71) with superstructure
+;
+loop_
+_citation_id
+_citation_journal_abbrev
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Journal of Solid State Chemistry' 1999 142 336 343 JSSCBI
+2 'Powder Diffraction' 1992 7 176 178 PODIE2
+_publ_author_name
+;
+Okudera, H.;Nakamura, H.;Toraya, H.;Ohsato, H.
+;
+_cell_length_a                     12.1568(1)
+_cell_length_b                     22.32529(20)
+_cell_length_c                     7.66301(7)
+_cell_angle_alpha                  90.
+_cell_angle_beta                   90.
+_cell_angle_gamma                  90.
+_cell_volume                       2079.77
+_cell_formula_units_Z              2
+_symmetry_space_group_name_H-M     'P b n m'
+_symmetry_Int_Tables_number        62
+_refine_ls_R_factor_all            0.07
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+  1	'-x+1/2, y+1/2, z'
+  2	'x, y, -z+1/2'
+  3	'x+1/2, -y+1/2, z+1/2'
+  4	'-x, -y, -z'
+  5	'x+1/2, -y+1/2, -z'
+  6	'-x, -y, z+1/2'
+  7	'-x+1/2, y+1/2, -z+1/2'
+  8	'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ba2+	2
+O2-	-2
+Sm3+	3
+Ti4+	4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_attached_hydrogens
+_atom_site_B_iso_or_equiv
+Ti1 Ti4+ 4 a 0 0 0 1. 0 0.53(3) 
+Ti2 Ti4+ 8 d 0.1994(3) 0.4339(1) 0.0042(8) 1. 0 0.53(3) 
+Ti3 Ti4+ 8 d 0.3980(3) 0.1068(1) 0.0078(7) 1. 0 0.53(3) 
+Ti4 Ti4+ 8 d 0.1176(3) 0.1632(2) 0.0002(9) 1. 0 0.5(3) 
+Ti5 Ti4+ 8 d 0.3397(3) 0.2612(1) 0.0002(9) 1. 0 0.5(3) 
+Sm1 Sm3+ 4 c 0.1930(2) 0.0452(1) 0.25 0.72(4) 0 0.63(3) 
+Ba1 Ba2+ 4 c 0.1930(2) 0.0452(1) 0.25 0.12(4) 0 0.63(3) 
+Sm2 Sm3+ 4 c 0.7047(2) 0.44887(8) 0.25 0.994 0 0.63(3) 
+Sm3 Sm3+ 4 c 0.9999(2) 0.4946(1) 0.25 0.82(4) 0 0.63(3) 
+Ba2 Ba2+ 4 c 0.9999(2) 0.4946(1) 0.25 0.13(4) 0 0.63(3) 
+Sm4 Sm3+ 4 c 0.4043(2) 0.37745(9) 0.25 0.97 0 0.63(3) 
+Sm5 Sm3+ 4 c 0.9095(2) 0.12405(8) 0.25 1. 0 0.63(3) 
+Ba3 Ba2+ 4 c 0.0851(2) 0.30026(9) 0.25 1. 0 0.54(2) 
+Ba4 Ba2+ 4 c 0.5957(2) 0.18673(8) 0.25 1. 0 0.54(2) 
+O1 O2- 4 c 0.104(2) 0.1746(9) 0.25 1. 0 1.11(8) 
+O2 O2- 4 c 0.592(2) 0.3578(9) 0.25 1. 0 1.11(8) 
+O3 O2- 8 d 0.421(1) 0.1934(5) 0.005(3) 1. 0 1.11(8) 
+O4 O2- 8 d 0.6862(9) 0.2638(6) 0.005(3) 1. 0 1.11(8) 
+O5 O2- 4 c 0.311(2) 0.2751(9) 0.25 1. 0 1.11(8) 
+O6 O2- 4 c 0.845(2) 0.2182(9) 0.25 1. 0 1.11(8) 
+O7 O2- 8 d 0.380(1) 0.0161(5) -.004(2) 1. 0 1.11(8) 
+O8 O2- 4 c 0.225(2) 0.4424(8) 0.25 1. 0 1.11(8) 
+O9 O2- 4 c 0.675(2) 0.0524(9) 0.25 1. 0 1.11(8) 
+O10 O2- 8 d 0.244(1) 0.1106(5) 0.013(2) 1. 0 1.11(8) 
+O11 O2- 4 c 0.478(2) 0.4839(8) 0.25 1. 0 1.11(8) 
+O12 O2- 8 d 0.037(1) 0.0809(6) 0.049(2) 1. 0 1.11(8) 
+O13 O2- 8 d 0.762(1) 0.1380(5) 0.029(2) 1. 0 1.11(8) 
+O14 O2- 8 d 0.845(1) 0.0194(6) 0.047(2) 1. 0 1.11(8) 
+O15 O2- 8 d 0.058(1) 0.4062(5) 0.045(2) 1. 0 1.11(8) 
+O16 O2- 8 d 0.460(1) 0.3172(5) 0.018(3) 1. 0 1.11(8) 
+O17 O2- 4 c 0.428(2) 0.1010(8) 0.25 1. 0 1.11(8) 
+O18 O2- 4 c 0.878(2) 0.4058(9) 0.25 1. 0 1.11(8) 
+
+#End of data_50603-ICSD
+
+

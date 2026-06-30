@@ -1,0 +1,57 @@
+# generated using pymatgen
+data_La2Ti2O7
+_symmetry_space_group_name_H-M   Pna2_1
+_cell_length_a   25.81855951
+_cell_length_b   7.78579186
+_cell_length_c   5.53956232
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   33
+_chemical_formula_structural   La2Ti2O7
+_chemical_formula_sum   'La16 Ti16 O56'
+_cell_volume   1113.55135328
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z+1/2'
+  3  '-x+1/2, y+1/2, z+1/2'
+  4  'x+1/2, -y+1/2, z'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  La3+  3.0
+  Ti4+  4.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La3+  La0  4  0.04053710  0.87317122  0.16479340  1
+  La3+  La1  4  0.05473398  0.37840898  0.20824110  1
+  La3+  La2  4  0.19238584  0.37565325  0.75415470  1
+  La3+  La3  4  0.20079775  0.87465614  0.74840229  1
+  Ti4+  Ti4  4  0.08727715  0.62708044  0.71332950  1
+  Ti4+  Ti5  4  0.08911288  0.12216171  0.71787539  1
+  Ti4+  Ti6  4  0.19011479  0.62291168  0.24468087  1
+  Ti4+  Ti7  4  0.19114297  0.12716496  0.24315216  1
+  O2-  O8  4  0.03027572  0.61181939  0.92682147  1
+  O2-  O9  4  0.03475656  0.13954617  0.93770162  1
+  O2-  O10  4  0.04589557  0.10952440  0.45520977  1
+  O2-  O11  4  0.05124276  0.64257389  0.43924736  1
+  O2-  O12  4  0.09599760  0.37537065  0.67912092  1
+  O2-  O13  4  0.09768914  0.87484907  0.79366754  1
+  O2-  O14  4  0.13542486  0.57803503  0.04704795  1
+  O2-  O15  4  0.13701243  0.17161812  0.04140139  1
+  O2-  O16  4  0.15720674  0.10742975  0.55328838  1
+  O2-  O17  4  0.15758421  0.64184946  0.55722857  1
+  O2-  O18  4  0.19658919  0.87488968  0.20519383  1
+  O2-  O19  4  0.20379517  0.37502606  0.31787197  1
+  O2-  O20  4  0.24072058  0.59558921  0.98287392  1
+  O2-  O21  4  0.24135437  0.15466047  0.98339690  1

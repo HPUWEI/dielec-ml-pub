@@ -1,0 +1,47 @@
+#### CIF created by Crystallographica 2 ####
+
+data_CalciumNeodymiumTantalate
+
+_audit_creation_method                    'Crystallographica 2' 
+_cell_angle_alpha                         90 
+_cell_angle_beta                          90.25 
+_cell_angle_gamma                         90 
+_cell_formula_units_Z                     2 
+_cell_length_a                            5.618 
+_cell_length_b                            5.871 
+_cell_length_c                            8.114 
+_cell_volume                              267.624 
+_cgraph_comments                         'The X-ray analysis of the compounds Ca2 Ln Ta O6
+'
+_cgraph_title                            'Calcium Neodymium Tantalate'
+_chemical_formula_sum                    'Ca2 Nd Ta O6'
+_symmetry_space_group_name_H-M           'P 21/c'
+_symmetry_space_group_name_Hall          '-P 2yn'
+
+loop_
+        _symmetry_equiv_pos_as_xyz
+        'x, y, z'
+        '-x, -y, -z'
+        '-x+1/2, y+1/2, -z+1/2'
+        'x+1/2, -y+1/2, z+1/2'
+
+loop_
+        _atom_site_label
+        _atom_site_type_symbol
+        _atom_site_fract_x
+        _atom_site_fract_y
+        _atom_site_fract_z
+        _atom_site_U_iso_or_equiv
+        _atom_site_thermal_displace_type
+        _atom_site_occupancy
+        Ta1 Ta5+ 0 0 0 0 Uiso 1
+        Ca1 Ca2+ 0.5 0.5 0 0 Uiso 1
+        Ca2 Ca2+ -0.014 0.4434 0.254 0 Uiso 0.5
+        Nd1 Nd3+ -0.014 0.4434 0.254 0 Uiso 0.5
+        O1 O2- 0.7098 0.177 0.0514 0 Uiso 1
+        O2 O2- 0.6698 0.217 0.4299 0 Uiso 1
+        O3 O2- 0.115 0.0574 0.2292 0 Uiso 1
+
+_eof
+
+#### End of Crystallographic Information File ####

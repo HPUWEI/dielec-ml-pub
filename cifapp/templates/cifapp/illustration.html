@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Illustration</title>
+    
+    {% load static %}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            padding: 0;
+            margin: 20px;
+        }
+        p {
+            text-align: justify;
+        }
+        
+        .navbar {
+            background-color: #660874;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #603ea8;
+        }
+        .content {
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            min-height: 600px;
+        }
+        .illustration-content {
+            display: flex;
+            flex-wrap: wrap; /* 允许换行 */
+            justify-content: center; /* 图片居中 */
+            gap: 20px; /* 图片之间的间距 */
+        }
+
+        .illustration-image {
+            width: 100%; /* 图片宽度最大化 */
+            max-width: 350px; /* 限制图片的最大宽度 */
+            height: auto; /* 自动调整高度以保持比例 */
+            border-radius: 10px; /* 可选，给图片加圆角 */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 给图片加阴影效果 */
+        }
+
+        .illustration-description {
+            max-width: 800px; /* 描述区域最大宽度 */
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1em; /* 增大字体大小 */
+            text-align: center;
+            margin-top: -20px
+        }
+
+        /* 媒体查询，确保在较小的屏幕上也能良好显示 */
+        @media (max-width: 768px) {
+            .illustration-image {
+                max-width: 100%; /* 小屏幕时图片最大宽度为100% */
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'calculate' %}">Project</a>
+    <a href="{% url 'record_list' %}">Database</a>
+    <a href="{% url 'ML' %}">ML</a>
+    <a href="{% url 'illustration' %}">Support</a>
+    <a href="{% url 'about' %}">About</a>
+</div>
+<div class="container">
+    <h1>Illustration of the Workflow</h1>
+    <p>Here is our code for machine-learning: <a href="{% static 'files/Code for ML.zip' %}" download>Click to download</a></p>
+    <p>A better version is upcoming...</p>
+    <p>Please contact us if there is any question!</p>
+    <p>E-mail: ruoyilv830@gmail.com</p>
+    <p>E-mail: binwei@hpu.edu.cn</p>
+    <div class="illustration-content">
+        <div class="illustration-description">
+            <h2>Project Illustration</h2>
+            <p>Select the CIF file you want to calculate.Then you can get the calculated results and download them as a csv file.</p>
+            <img src="{% static 'images/project_upload.jpg' %}" alt="project_upload.jpg" class="illustration-image">
+            <img src="{% static 'images/project_show_button.jpg' %}" alt="project_show_button.jpg" class="illustration-image">
+            <img src="{% static 'images/project_select.jpg' %}" alt="project_select.jpg" class="illustration-image">
+            <img src="{% static 'images/project_download.jpg' %}" alt="project_download.jpg" class="illustration-image">
+        </div>
+    </div>
+
+    <div class="illustration-content">
+        <div class="illustration-description">
+            <h2>Database Illustration</h2>
+            <p>Here are some CIF file data, you can upload or download files here. The format of the uploaded file can refer to the format of the existing file below.</p>
+            <img src="{% static 'images/database_upload.jpg' %}" alt="database_upload.jpg" class="illustration-image">
+            <img src="{% static 'images/database_submit.jpg' %}" alt="database_submit.jpg" class="illustration-image">
+            <img src="{% static 'images/database_download.jpg' %}" alt="database_download.jpg" class="illustration-image">
+            <img src="{% static 'images/database1.png' %}" alt="database1.png" class="illustration-image">
+            <img src="{% static 'images/database2.png' %}" alt="database2.png" class="illustration-image">
+        </div>
+    </div>
+    
+    <div class="illustration-content">
+        <div class="illustration-description">
+            <h2>ML Illustration</h2>
+            <p>Here you can upload an Excel file for machine learning training, and the training results will be displayed to users in the form of a scatter plot. The machine learning algorithm used in this platform is the random forest algorithm.</p>
+            <img src="{% static 'images/ml1.png' %}" alt="ml1.png" class="illustration-image">
+            <img src="{% static 'images/features_anay.png' %}" alt="features_anay.png" class="illustration-image">
+            <img src="{% static 'images/deepseek.png' %}" alt="deepseek.png" class="illustration-image">
+            <img src="{% static 'images/predict.png' %}" alt="predict.png" class="illustration-image">
+        </div>
+    </div>
+</div>
+</body>
+</html>

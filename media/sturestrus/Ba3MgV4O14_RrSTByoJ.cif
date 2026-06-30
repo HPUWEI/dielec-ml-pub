@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_Ba3MgV4O14
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   7.29735968
+_cell_length_b   14.18977297
+_cell_length_c   14.30332008
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   109.05042964
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   Ba3MgV4O14
+_chemical_formula_sum   'Ba12 Mg4 V16 O56'
+_cell_volume   1399.96221796
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ba2+  2.0
+  Mg2+  2.0
+  V5+  5.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba2+  Ba0  4  0.10916865  0.55495731  0.78170366  1
+  Ba2+  Ba1  4  0.22947710  0.60655880  0.48495822  1
+  Ba2+  Ba2  4  0.44155039  0.22954825  0.20402088  1
+  Mg2+  Mg3  4  0.12030836  0.09804471  0.50654911  1
+  V5+  V4  4  0.01393711  0.18738987  0.26793640  1
+  V5+  V5  4  0.19640869  0.17036520  0.94908154  1
+  V5+  V6  4  0.38985928  0.60926582  0.04906418  1
+  V5+  V7  4  0.39924176  0.02779347  0.73970914  1
+  O2-  O8  4  0.00029084  0.60888000  0.14323543  1
+  O2-  O9  4  0.03803882  0.07647866  0.92264203  1
+  O2-  O10  4  0.10252002  0.12489098  0.18941746  1
+  O2-  O11  4  0.11789950  0.24762936  0.51573229  1
+  O2-  O12  4  0.16408690  0.55324275  0.98649436  1
+  O2-  O13  4  0.19014999  0.22127634  0.82799623  1
+  O2-  O14  4  0.19678619  0.74287740  0.30081534  1
+  O2-  O15  4  0.22252148  0.09771060  0.65826833  1
+  O2-  O16  4  0.30440844  0.52275286  0.32081113  1
+  O2-  O17  4  0.35024390  0.72201462  0.07355663  1
+  O2-  O18  4  0.40848723  0.59928958  0.70010785  1
+  O2-  O19  4  0.41528431  0.13127224  0.02368073  1
+  O2-  O20  4  0.45161960  0.10752633  0.51675026  1
+  O2-  O21  4  0.49784750  0.05877852  0.32521537  1

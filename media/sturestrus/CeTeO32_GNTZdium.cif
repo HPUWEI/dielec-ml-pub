@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_Ce(TeO3)2
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   7.06429296
+_cell_length_b   11.16971293
+_cell_length_c   8.48403901
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.75261919
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   Ce(TeO3)2
+_chemical_formula_sum   'Ce4 Te8 O24'
+_cell_volume   550.02804914
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+loop_
+ _atom_type_symbol
+ _atom_type_oxidation_number
+  Ce4+  4.0
+  Te4+  4.0
+  O2-  -2.0
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce4+  Ce0  4  0.25609327  0.59188746  0.49637166  1
+  Te4+  Te1  4  0.19725503  0.22455119  0.93814828  1
+  Te4+  Te2  4  0.27064930  0.57764612  0.03653499  1
+  O2-  O3  4  0.00200338  0.09964096  0.91639821  1
+  O2-  O4  4  0.02828817  0.24844449  0.67184692  1
+  O2-  O5  4  0.14216827  0.59601801  0.17947551  1
+  O2-  O6  4  0.38897522  0.09794902  0.95993463  1
+  O2-  O7  4  0.43824606  0.72137317  0.11744509  1
+  O2-  O8  4  0.47355950  0.52309119  0.79635631  1
