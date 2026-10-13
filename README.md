@@ -1,14 +1,3 @@
-dielec-ml-pub\
-├── train.py
-├── requirements.txt
-├── README.md
-├── data\
-│   ├── built_in_dataset.xlsx
-│   ├── external_qin.xlsx
-│   ├── external_ye.xlsx
-│   └── external_a_new.xlsx
-└── results\
-
 # DielectroNet Reproducibility Package
 
 This repository contains the source code, datasets, preprocessing scripts, trained configurations, and evaluation scripts for the DielectroNet platform.
