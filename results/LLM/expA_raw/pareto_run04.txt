@@ -1,0 +1,5 @@
+[Dominance] Six features account for 80% of predictive importance: pd (0.312094), pv (0.178505), blm (0.151432), com (0.095113), sm (0.058921), and Em (0.048412). Importance is highly concentrated, with pd and pv alone contributing 0.490599 (roughly 49% of total importance) and the remaining 18 features collectively contributing under 20%.
+
+[Physical Meaning] pd (0.312094) and pv (0.178505) are the two dominant predictors, likely reflecting packing-density and volume-related descriptors that govern polarizability and dipole response in the dielectric lattice. blm (0.151432), a B-site electronegativity descriptor (Matyonov-Batsanov), plausibly influences dielectric behavior through B-site cation bonding character and charge distribution, which affect polarization and permittivity.
+
+[Simplification] The long tail—including pm (0.000758), asd (0.00096), GII (0.001393), ssd (0.00167), Esd (0.003693), d (0.004818), vm (0.005425), blsd (0.005798), and devvm (0.005865)—represents lower-priority variables that merit further investigation, though any claim about preserving predictive performance would require a separate retraining experiment.

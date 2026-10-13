@@ -1,0 +1,10 @@
+﻿plot_type,variant,n_runs,top1_mode,top1_consistency,top2_mode,top2_consistency,jaccard_mean,causal_rate,sections_complete_rate,mean_text_length
+bubble,V0,10,blm,0.9,"('blm', 'blsd')",0.9,0.7527716727716727,1.0,1.0,1261.8
+bubble,V1,10,blm,0.7,"('blm', 'blsd')",0.7,0.6107142857142858,1.0,1.0,1272.9
+bubble,V2,10,blm,0.6,"('blm', 'blsd')",0.6,0.5925722425722426,1.0,1.0,1286.3
+pareto,V0,10,blm,1.0,"('blm', 'blsd')",0.8,0.7791921165063578,0.1,1.0,1279.6
+pareto,V1,10,blm,1.0,"('blm', 'blsd')",1.0,0.9492929292929294,0.1,1.0,1162.3
+pareto,V2,10,blm,1.0,"('blm', 'blsd')",0.5,0.7766666666666667,0.1,1.0,1208.2
+shap,V0,10,blm,1.0,"('blm', 'sm')",0.7,0.8217813051146382,1.0,1.0,1553.6
+shap,V1,10,blm,1.0,"('blm', 'com')",0.6,0.7781746031746033,0.9,1.0,1544.4
+shap,V2,10,blm,1.0,"('blm', 'sm')",0.6,0.859479717813051,0.8,1.0,1477.9

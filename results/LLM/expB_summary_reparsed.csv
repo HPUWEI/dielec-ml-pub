@@ -1,0 +1,10 @@
+﻿plot_type,variant,N,Top1_mode,Top1_consistency,Top2_mode,Top2_consistency,Mean_pairwise_Jaccard
+bubble,V0,10,pm,1.0,pm|vm,1.0,0.7527716727716727
+bubble,V1,10,pm,1.0,pm|vm,1.0,0.6107142857142858
+bubble,V2,10,pm,1.0,pm|vm,1.0,0.5925722425722426
+pareto,V0,10,pd,1.0,pd|pv,1.0,0.7791921165063578
+pareto,V1,10,pd,1.0,pd|pv,1.0,0.9492929292929294
+pareto,V2,10,pd,1.0,pd|pv,1.0,0.7766666666666667
+shap,V0,10,pd,1.0,pd|pv,1.0,0.8217813051146382
+shap,V1,10,pd,1.0,pd|pv,1.0,0.7781746031746033
+shap,V2,10,pd,1.0,pd|pv,1.0,0.859479717813051

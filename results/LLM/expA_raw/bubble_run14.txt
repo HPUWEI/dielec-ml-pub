@@ -1,0 +1,5 @@
+[Strong Correlations] The two most strongly correlated pairs are pm–vm (r=0.993) and vi–vm (r=0.991). These likely co-vary because pm (A-site-related mass/parameter), vi, and vm all scale with the same underlying compositional/structural descriptor—e.g., unit-cell volume or A-site ionic size—so heavier or larger A-site substitutions shift all three together.
+
+[Redundancy] pm, vm, vi, and m form a tightly intercorrelated block (pm–vm 0.993, vi–vm 0.991, vi–pm 0.984, pm–m 0.982, vm–m 0.96), and pd–va are strongly anti-correlated (r=-0.806), so these features carry overlapping statistical information. This overlap suggests redundancy, but removal of any single feature cannot be justified from correlation alone and should be tested via ablation or importance analysis.
+
+[Design Implication] Because pm/vm/vi/m are near-collinear, a model for the dielectric property may benefit from retaining one representative from that block (e.g., vm) alongside complementary, less redundant descriptors such as the B-site features (blm, blsd, bvsdm) and the anti-correlated pd–va pair, rather than including all of pm, vm, vi, and m together.

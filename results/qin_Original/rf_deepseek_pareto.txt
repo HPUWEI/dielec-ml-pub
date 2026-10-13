@@ -1,0 +1,5 @@
+[Dominance] Five of the six features account for 80% of predictive importance: ppv (0.309568), bg (0.190100), bpv (0.145877), d (0.138241), and blm (0.131618). Importance is moderately distributed rather than sharply concentrated—the top feature ppv holds only ~31% of total importance, and the remaining four features in the 80% set each contribute between ~13% and ~19%.
+
+[Physical Meaning] ppv (polarizability per unit volume) is the most direct intrinsic driver of dielectric constant, so its top rank is physically consistent with the target. bg (band gap) governs electronic polarization and dielectric loss, with wider gaps generally suppressing loss contributions. bpv (bond density) reflects structural rigidity and cross-linking, which constrains polarizability and thus modulates permittivity.
+
+[Simplification] FEpa (formation energy per atom, 0.084595) is the sole feature outside the 80% importance set and is the clearest lower-priority candidate for further investigation. Note that its exclusion from the 80% threshold does not establish that dropping it preserves predictive performance; that would require a separate retraining experiment.

@@ -1,0 +1,4 @@
+﻿plot_type,n_runs,top1_mode,top1_consistency,top2_mode,top2_consistency,jaccard_mean,causal_rate,sections_complete_rate,mean_text_length
+bubble,20,blm,0.65,"('blm', 'blsd')",0.65,0.5794899544899546,1.0,1.0,1232.1
+pareto,20,blm,1.0,"('blm', 'blsd')",0.7,0.762651416089631,0.1,1.0,1329.4
+shap,20,blm,1.0,"('blm', 'sm')",0.55,0.8662907268170427,0.95,1.0,1530.5

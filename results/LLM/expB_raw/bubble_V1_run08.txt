@@ -1,0 +1,5 @@
+[Strong Correlations] The two strongest feature pairs are ('pm', 'vm', 0.993) and ('vi', 'vm', 0.991), with ('vi', 'pm', 0.984) and ('pm', 'm', 0.982) also very high. These likely co-vary because 'pm', 'vm', 'vi', and 'm' all encode related mass/volume/ion-size descriptors of the same composition, so changes in one are almost mechanically reflected in the others.
+
+[Redundancy] 'pm', 'vm', 'vi', and 'm' share substantial overlapping statistical information, as do 'pd' and 'va' (r = -0.806). This redundancy means their individual importance scores may be unstable, but it does not by itself prove that any of these features can be removed without testing model performance.
+
+[Design Implication] Given the correlation structure, a feature combination that retains one representative from the 'pm'/'vm'/'vi'/'m' cluster plus 'pd' or 'va' (not both) may be informative for predicting the dielectric property, while still allowing the model to use the remaining distinct features such as 'blm', 'blsd', 'sm', 'ssd', 'com', 'cosd', 'Em', 'Ev', 'Esd', 'bvsdm', 'devvm', 'via', 'pa', 'pv', 'lsd', 'asd', 'd', and 'GII'.

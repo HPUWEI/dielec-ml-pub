@@ -1,0 +1,5 @@
+[Strong Correlations] The two most strongly correlated pairs are pm–vm (r = 0.993) and vi–vm (r = 0.991). These likely co-vary because pm, vi, and vm are all size/volume-related descriptors of the perovskite unit cell, so changes in ionic packing or molar volume shift them together.
+
+[Redundancy] pm, vm, vi, and m form a tightly overlapping block (pm–vm = 0.993, vi–vm = 0.991, vi–pm = 0.984, pm–m = 0.982, vm–m = 0.96), and pd–va are strongly anti-correlated (r = -0.806). This indicates substantial shared statistical information, but removal of any single feature should not be assumed from correlation alone and would require validation against the model's R²/RMSE.
+
+[Design Implication] Because the size/volume block is highly redundant, a compact informative set could pair one representative from it (e.g., vm or pm) with the anti-correlated pd–va pair, alongside chemically distinct descriptors such as the electronegativity/ionization-energy features (emb, eab, epa, ieb) and GII, to capture complementary dielectric-relevant variation.

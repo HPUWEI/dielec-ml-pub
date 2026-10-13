@@ -1,0 +1,5 @@
+[Strong Correlations] The two strongest feature pairs are pm–vm (r=0.993) and vi–vm (r=0.991), with pm–m (r=0.982) and vm–m (r=0.96) also very high. These co-vary plausibly because pm (A-site/B-site-related mass or molar property), vm (molar volume), vi (ionic volume), and m (mass) are all size/volume/mass descriptors that scale together across chemically similar perovskite compositions.
+
+[Redundancy] pm, vm, vi, and m share substantial overlapping statistical information, as do pd and va (r=-0.806). This redundancy is statistical only; it does not by itself prove that any of pm, vm, vi, m, pd, or va can be removed without testing, since each may still carry unique nonlinear or interaction information for the dielectric target.
+
+[Design Implication] Given the correlation structure, a feature combination that retains one representative from the pm/vm/vi/m cluster (e.g., vm or pm) alongside pd or va, plus the less-correlated descriptors such as blm, blsd, sm, ssd, com, cosd, Em, Ev, Esd, bvsdm, devvm, via, pa, pv, lsd, asd, d, va, and GII, may be informative for predicting the dielectric property while limiting redundancy.

@@ -1,0 +1,5 @@
+[Strong Correlations] The two most strongly correlated pairs are pm–vm (r=0.993) and vi–vm (r=0.991). These likely co-vary because molar volume (vm), molar mass (pm), and ionic volume (vi) are all size/mass descriptors of the same perovskite composition, so a larger or heavier B-site population tends to raise all three together.
+
+[Redundancy] The cluster of pm, vm, vi, and m (pm–m r=0.982; vm–m r=0.96; vi–pm r=0.984) carries overlapping statistical information, and pd–va (r=-0.806) is a strongly anti-correlated pair. This overlap suggests these features are largely co-linear, but it does not by itself prove that any single feature can be removed without testing.
+
+[Design Implication] Because vm/pm/vi/m are nearly interchangeable and pd/va move oppositely, a compact informative set would pair one representative from each group—e.g., vm (or pm) with pd (or va)—alongside complementary descriptors such as Em, Ev, Esd, and GII, rather than including all of pm, vm, vi, and m together.

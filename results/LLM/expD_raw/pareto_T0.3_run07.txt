@@ -1,0 +1,5 @@
+[Dominance] Six of the 24 features account for 80% of predictive importance: pd (0.312094), pv (0.178505), blm (0.151432), com (0.095113), sm (0.058921), and Em (0.048412). Importance is highly concentrated, with pd and pv alone contributing 0.490599 (~49%) and the remaining 18 features each falling below 0.012.
+
+[Physical Meaning] pd (0.312094) and pv (0.178505) likely encode packing-density and volume-related descriptors, which govern polarizability per unit cell and thus dielectric response. blm (0.151432), a B-site electronegativity measure (Matyonov-Batsanov), plausibly tunes B–O bond covalency and ionic polarizability, while com (0.095113) and sm (0.058921) capture compositional and mean-value central tendencies that shift the dielectric constant across the perovskite family.
+
+[Simplification] The long tail—pm (0.000758), asd (0.00096), GII (0.001393), ssd (0.00167), Esd (0.003693), and d (0.004818)—are candidates for lower-priority investigation, as each contributes under 0.005 importance. Whether these can be dropped without degrading R²=0.7472 ± 0.1632 or RMSE=15.4844 ± 6.7395 requires a separate retraining experiment.

@@ -1,0 +1,1 @@
+{'model__n_neighbors': 5, 'model__p': 1, 'model__weights': 'distance'}

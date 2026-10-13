@@ -1,0 +1,10 @@
+﻿plot_type,temperature,n_runs,top1_mode,top1_consistency,top2_mode,top2_consistency,jaccard_mean,causal_rate,sections_complete_rate,mean_text_length
+bubble,0.0,10,blm,0.9,"('blm', 'blsd')",0.9,0.6985612535612535,1.0,1.0,1352.0
+bubble,0.3,10,blm,0.8,"('blm', 'blsd')",0.8,0.60243080993081,1.0,1.0,1307.9
+bubble,0.7,10,blm,0.5,"('blm', 'blsd')",0.4,0.5729105643811526,1.0,1.0,1274.7
+pareto,0.0,10,blm,1.0,"('blm', 'blsd')",1.0,0.913131313131313,0.2,1.0,1341.2
+pareto,0.3,10,blm,1.0,"('blm', 'blsd')",0.7,0.760149319279754,0.0,1.0,1372.0
+pareto,0.7,10,blm,1.0,"('blm', 'blsd')",0.5,0.7342691929648452,0.1,1.0,1349.6
+shap,0.0,10,blm,1.0,"('blm', 'sm')",0.6,0.9238095238095234,1.0,1.0,1556.3
+shap,0.3,10,blm,1.0,"('blm', 'com')",0.6,0.9011904761904761,1.0,1.0,1563.9
+shap,0.7,10,blm,1.0,"('blm', 'sm')",0.6,0.8703703703703703,1.0,1.0,1543.2

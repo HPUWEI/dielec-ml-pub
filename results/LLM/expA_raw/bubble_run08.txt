@@ -1,0 +1,5 @@
+[Strong Correlations] The two most strongly correlated pairs are pm–vm (r = 0.993) and vi–vm (r = 0.991). These likely co-vary because pm, vm, and vi are all size/volume-related descriptors of the perovskite unit cell, so changes in ionic volume (vi) and molar volume (vm) naturally track one another, with pm (a mass- or packing-related term) following the same geometric scaling.
+
+[Redundancy] The cluster {pm, vm, vi, m} carries heavily overlapping statistical information, given pm–vm = 0.993, vi–vm = 0.991, vi–pm = 0.984, pm–m = 0.982, and vm–m = 0.96; pd–va (r = -0.806) is a separate but notable inverse pair. Correlation alone does not establish that any of these features can be removed, since each may still contribute unique variance to the Gradient Boosting model.
+
+[Design Implication] Because the volume/mass block (pm, vm, vi, m) is nearly collinear, pairing one representative from it (e.g., vm) with the inversely related pd–va pair, plus composition/electronegativity descriptors such as com, cosd, and Em, should provide complementary rather than redundant information for predicting the dielectric property.

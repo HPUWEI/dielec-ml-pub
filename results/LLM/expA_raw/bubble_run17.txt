@@ -1,0 +1,5 @@
+[Strong Correlations] The two strongest pairs are pm–vm (r=0.993) and vi–vm (r=0.991), with vi–pm close behind (r=0.984). These likely co-vary because pm (A-site mass), vm (unit-cell/ molar volume), and vi (ionic volume) are all size/mass descriptors that scale together as the A-site cation and overall perovskite cell expand.
+
+[Redundancy] pm, vm, vi, and m form a tightly overlapping block (pm–vm 0.993, vi–vm 0.991, vi–pm 0.984, pm–m 0.982, vm–m 0.96), and pd–va are strongly anti-correlated (r=-0.806). This indicates substantial shared statistical information among these features, though removal of any single feature should not be assumed from correlation alone and would require validation.
+
+[Design Implication] Because the size/mass block is largely redundant, a compact informative set could pair one representative from it (e.g., vm or pm) with complementary descriptors such as the B-site electronegativity/ionization features (blm, blsd, Em, Ev, Esd) and the anti-correlated pd–va pair, which together capture distinct chemical and structural drivers of the dielectric property.

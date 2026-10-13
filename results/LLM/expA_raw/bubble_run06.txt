@@ -1,0 +1,5 @@
+[Strong Correlations] The two most strongly correlated pairs are pm–vm (r = 0.993) and vi–vm (r = 0.991). These likely co-vary because pm (A-site/B-site-related mass or molar descriptor), vi (ionic volume), and vm (molar/unit-cell volume) all scale with the size and mass of the constituent ions, so larger or heavier ions tend to increase both ionic and molar volume together.
+
+[Redundancy] The cluster pm, vm, vi, and m shows overlapping statistical information, with pm–m at 0.982 and vm–m at 0.960, and pd–va is strongly negatively correlated at −0.806. This indicates substantial shared variance among these descriptors, but removal of any single feature should not be assumed from correlation alone and would require validation with the Gradient Boosting model.
+
+[Design Implication] Given the tight pm/vm/vi/m cluster and the opposing pd–va pair, a compact informative set could combine one volume/mass descriptor (e.g., vm or pm) with pd and va to capture the negative packing/volume contrast, while retaining chemically distinct features such as the electronegativity and ionization-energy terms (emb, eab, epa, ieb) that are not strongly correlated with this cluster.

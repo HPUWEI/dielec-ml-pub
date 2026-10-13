@@ -1,0 +1,5 @@
+[Strong Correlations] The two most strongly correlated pairs are pm–vm (r=0.993) and vi–vm (r=0.991). These likely co-vary because pm (A-site mass-related descriptor), vi (ionic volume/valence-related descriptor), and vm (molar/unit-cell volume) all scale with the size and mass of the constituent ions, so heavier or larger A/B-site substitutions tend to increase all three together.
+
+[Redundancy] The cluster {pm, vm, vi, m} shows overlapping statistical information, with pm–m (r=0.982) and vm–m (r=0.96) also very high, and pd–va (r=-0.806) indicates a separate but strong inverse overlap. This suggests these features are largely collinear, but removal of any one cannot be justified from correlation alone without testing model performance.
+
+[Design Implication] For predicting the dielectric property, a compact informative set could combine one representative from the {pm, vm, vi, m} cluster (e.g., vm) with pd or va to capture the negative pd–va axis, plus chemically distinct descriptors such as Em, Ev, Esd, bvsdm, devvm, and GII that are not strongly correlated with that cluster.

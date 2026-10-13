@@ -1,0 +1,8 @@
+[Strong Correlations]
+The two most strongly correlated pairs are pm–vm (r=0.993) and vi–vm (r=0.991), with vi–pm also at r=0.984. These likely co-vary because pm, vm, and vi all scale with the same underlying ionic/volume and mass-related descriptors of the perovskite composition, so changes in one are mirrored by the others.
+
+[Redundancy]
+The cluster {pm, vm, vi, m} shows overlapping statistical information, especially pm–vm (0.993), vi–vm (0.991), vi–pm (0.984), pm–m (0.982), and vm–m (0.96); pd–va (−0.806) is a separate strongly linked pair. These correlations indicate redundancy, but they do not by themselves prove that any feature can be removed without testing model performance.
+
+[Design Implication]
+For predicting the dielectric property, the model may benefit from retaining a representative from the highly collinear {pm, vm, vi, m} group while also including complementary features such as pd or va, since their strong negative correlation (−0.806) captures opposing structural/chemical variation. The remaining features, including blm, blsd, sm, ssd, com, cosd, Em, Ev, Esd, bvsdm, devvm, via, pa, pv, lsd, asd, d, va, and GII, may add non-redundant information beyond this correlated core.

@@ -1,0 +1,11 @@
+Experiment: expB
+Feature ranking method: actual first-appearance order in LLM output
+
+N = 90
+Top-1 mode = pd
+Top-1 consistency = 0.6667
+Top-2 mode = ['pd', 'pv']
+Top-2 consistency = 0.6667
+Mean pairwise Jaccard = 0.4508
+Minimum Jaccard = 0.0556
+Maximum Jaccard = 1.0000

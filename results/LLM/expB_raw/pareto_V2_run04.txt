@@ -1,0 +1,5 @@
+[Dominance] Six features account for 80% of the predictive importance: pd (0.312094), pv (0.178505), blm (0.151432), com (0.095113), sm (0.058921), and Em (0.048412). Importance is concentrated, with the top three features alone (pd, pv, blm) contributing 0.642031, or roughly 64% of the total.
+
+[Physical Meaning] The top feature, pd (0.312094), likely encodes a packing-density or interatomic-distance descriptor that governs polarizability and dipole response, directly influencing the dielectric constant. pv (0.178505) and blm (0.151432) plausibly capture volume-related and B-site electronegativity/mass characteristics, which affect bond covalency, ionic polarizability, and hence the material's dielectric behavior.
+
+[Simplification] The long-tail features with importances below ~0.01—including asd (0.00096), pm (0.000758), GII (0.001393), ssd (0.00167), Esd (0.003693), and d (0.004818)—are candidates for further investigation as lower-priority variables. Whether they can be removed without degrading predictive performance would require a separate retraining experiment to confirm.

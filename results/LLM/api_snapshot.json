@@ -1,0 +1,21 @@
+{
+  "run_timestamp": "2026-10-05T16:08:38",
+  "best_key": "gbrt",
+  "n_repeat_A": 20,
+  "n_repeat_B": 10,
+  "n_repeat_D": 10,
+  "temperatures_D": [
+    0.0,
+    0.3,
+    0.7
+  ],
+  "models_returned_A": [
+    "deepseek-flash"
+  ],
+  "models_returned_B": [
+    "deepseek-flash"
+  ],
+  "models_returned_D": [
+    "deepseek-flash"
+  ]
+}

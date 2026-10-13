@@ -1,0 +1,10 @@
+﻿plot_type,temperature,N,Top1_mode,Top1_consistency,Top2_mode,Top2_consistency,Mean_pairwise_Jaccard
+bubble,0.0,10,pm,1.0,pm|vm,1.0,0.6985612535612535
+bubble,0.3,10,pm,1.0,pm|vm,1.0,0.60243080993081
+bubble,0.7,10,pm,1.0,pm|vm,1.0,0.5729105643811526
+pareto,0.0,10,pd,1.0,pd|pv,1.0,0.913131313131313
+pareto,0.3,10,pd,1.0,pd|pv,1.0,0.760149319279754
+pareto,0.7,10,pd,1.0,pd|pv,1.0,0.7342691929648452
+shap,0.0,10,pd,1.0,pd|pv,1.0,0.9238095238095234
+shap,0.3,10,pd,1.0,pd|pv,1.0,0.9011904761904761
+shap,0.7,10,pd,1.0,pd|pv,1.0,0.8703703703703703

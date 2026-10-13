@@ -1,0 +1,5 @@
+[Strong Correlations] The two most strongly correlated pairs are pm–vm (r=0.993) and vi–vm (r=0.991), with vi–pm also at r=0.984. These likely co-vary because pm (A-site/B-site-related mass or molar parameter), vm (molar volume), and vi (ionic volume) all scale with the size and mass of the constituent ions, so larger/heavier ions tend to increase both molar volume and ionic volume in a coordinated way.
+
+[Redundancy] The cluster {pm, vm, vi, m} carries heavily overlapping statistical information, given pm–vm=0.993, vi–vm=0.991, vi–pm=0.984, pm–m=0.982, and vm–m=0.96; pd–va (−0.806) is also strongly linked. This overlap does not by itself prove that any of pm, vm, vi, or m can be removed, since each may still contribute unique variance to the dielectric target.
+
+[Design Implication] Because the size/volume block (pm, vm, vi, m) is highly collinear, a model for the dielectric property may benefit from retaining one representative from that block alongside complementary features such as pd and va (r=−0.806) and the electronegativity/ionization descriptors (emb, eab, epa, ieb) that are not part of the strong-correlation cluster.

@@ -1,0 +1,5 @@
+[Strong Correlations] The two most strongly correlated pairs are (pm, vm) at r=0.993 and (vi, vm) at r=0.991. These likely co-vary because pm (A-site/B-site ionic mass or molar mass proxy), vm (molar volume), and vi (ionic volume) all scale with the size and mass of the constituent ions in the perovskite-like composition, so heavier, larger ions increase both mass and volume together.
+
+[Redundancy] The cluster {pm, vm, vi, m} shows overlapping statistical information, with (pm, m)=0.982 and (vm, m)=0.96 in addition to the pairs above, and (pd, va) at r=−0.806 forms a separate inversely linked pair. This overlap suggests these features are not statistically independent, but removal of any single feature should not be claimed from correlation alone without testing model performance.
+
+[Design Implication] For predicting the dielectric property, a compact informative combination would pair one representative from the mass/volume cluster (e.g., vm or pm) with pd and va, since pd–va is strongly negative (r=−0.806) and likely captures a distinct polarization/volume trade-off, rather than including all of pm, vm, vi, and m together.

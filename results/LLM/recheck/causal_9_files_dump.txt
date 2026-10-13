@@ -1,0 +1,107 @@
+================================================================================
+[26] experiment=A | file=pareto_run06.txt
+judge_votes = CAUSAL|CAUSAL|CAUSAL
+path = E:\Adesk\研二\work\DielectroNet用到的文件\images\new_ML_6models\database\llm_repro\expA_raw\pareto_run06.txt
+================================================================================
+[Dominance] Six features account for 80% of predictive importance: pd (0.312094), pv (0.178505), blm (0.151432), com (0.095113), sm (0.058921), and Em (0.048412). Importance is highly concentrated, with pd and pv alone contributing 0.490599 (≈49% of total importance) and the remaining 18 features each below 0.023.
+
+[Physical Meaning] pd (0.312094) and pv (0.178505) likely encode packing-density and volume-related descriptors, which govern polarizability per unit volume and thus dielectric response. blm (0.151432), a B-site electronegativity descriptor (Matyonov-Batsanov), plausibly relates to B–O bond covalency and ionic polarizability, both of which directly influence the dielectric constant. com (0.095113) and sm (0.058921) appear to capture compositional and mean-based structural/chemical averages that modulate the dielectric behavior across the material family.
+
+[Simplification] The long tail includes pm (0.000758), asd (0.00096), GII (0.001393), ssd (0.00167), Esd (0.003693), and d (0.004818), which are candidates for lower-priority investigation. Whether these features can be removed without degrading performance requires a separate retraining and validation experiment.
+
+
+================================================================================
+[38] experiment=A | file=pareto_run18.txt
+judge_votes = CAUSAL|CAUSAL|CAUSAL
+path = E:\Adesk\研二\work\DielectroNet用到的文件\images\new_ML_6models\database\llm_repro\expA_raw\pareto_run18.txt
+================================================================================
+[Dominance] Six features account for 80% of predictive importance: pd (0.312094), pv (0.178505), blm (0.151432), com (0.095113), sm (0.058921), and Em (0.048412). Importance is highly concentrated, with pd and pv alone contributing 0.490599 (~49%) and the remaining 18 features sharing the residual ~20%.
+
+[Physical Meaning] pd (0.312094) and pv (0.178505) are the two strongest predictors, and their pairing suggests packing-density and volume-related descriptors jointly govern how tightly ions and polarizable units are arranged, which directly controls polarizability per unit volume and hence dielectric response. blm (0.151432) ranks third, and as a B-site electronegativity descriptor (Matyonov-Batsanov scale) it likely proxies B–O bond covalency and the resulting cation polarizability that shifts the dielectric constant.
+
+[Simplification] The long tail below the 80% threshold—including pm (0.000758), asd (0.00096), GII (0.001393), ssd (0.00167), Esd (0.003693), and d (0.004818)—are candidates for further investigation as lower-priority variables. Whether these can be dropped without degrading the R²=0.7472 ± 0.1632 / RMSE=15.4844 ± 6.7395 performance would require a separate retraining and nested CV comparison.
+
+
+================================================================================
+[100] experiment=B | file=pareto_V0_run10.txt
+judge_votes = ASSOCIATION|CAUSAL|CAUSAL
+path = E:\Adesk\研二\work\DielectroNet用到的文件\images\new_ML_6models\database\llm_repro\expB_raw\pareto_V0_run10.txt
+================================================================================
+[Dominance] Six of the 24 features account for 80% of predictive importance: pd (0.312094), pv (0.178505), blm (0.151432), com (0.095113), sm (0.058921), and Em (0.048412). Importance is highly concentrated, with pd and pv alone contributing 0.490599 (~49%) and the remaining 18 features each falling below 0.012.
+
+[Physical Meaning] pd and pv likely encode packing-density and volume-related descriptors that govern polarizability and dipole response, which directly control dielectric constant and loss. blm, the B-site electronegativity (Matyonov-Batsanov), influences B–O bond covalency and hence ionic/electronic polarizability in perovskite-like dielectrics. com and sm, as compositional and stoichiometric/mean descriptors, capture cation ordering and average chemistry effects that shift dielectric behavior across compositions.
+
+[Simplification] The long tail—pm (0.000758), asd (0.00096), GII (0.001393), ssd (0.00167), Esd (0.003693), d (0.004818), vm (0.005425), blsd (0.005798), devvm (0.005865), and va (0.006201)—are candidates for lower-priority investigation. Whether these can be dropped without degrading the R²=0.7472 ± 0.1632 performance would require a separate retraining and nested CV experiment.
+
+
+================================================================================
+[102] experiment=B | file=pareto_V1_run02.txt
+judge_votes = ASSOCIATION|CAUSAL|CAUSAL
+path = E:\Adesk\研二\work\DielectroNet用到的文件\images\new_ML_6models\database\llm_repro\expB_raw\pareto_V1_run02.txt
+================================================================================
+[Dominance] Six of 24 features account for 80% of importance: pd (0.312094), pv (0.178505), blm (0.151432), com (0.095113), sm (0.058921), and Em (0.048412). Importance is strongly concentrated, with pd and pv alone contributing ~49% and the top three ~64%.
+
+[Physical Meaning] pd (0.312094) and pv (0.178505) likely encode packing/density and volume-related descriptors tied to polarizability and ionic displacement under field, which directly govern dielectric response. blm (0.151432), a B-site electronegativity term (Matyonov-Batsanov), plausibly modulates B–O bond covalency and hence polarizability and dielectric constant.
+
+[Simplification] The long tail—pm (0.000758), asd (0.00096), GII (0.001393), ssd (0.00167), Esd (0.003693), d (0.004818), vm (0.005425), blsd (0.005798), devvm (0.005865), va (0.006201), bvsdm (0.00726), lsd (0.007849), vi (0.008227), cosd (0.008339), via (0.010478), and m (0.01116)—can be treated as lower-priority variables for further study, though retaining them may still aid performance without a separate retraining test.
+
+
+================================================================================
+[109] experiment=B | file=pareto_V1_run09.txt
+judge_votes = CAUSAL|CAUSAL|CAUSAL
+path = E:\Adesk\研二\work\DielectroNet用到的文件\images\new_ML_6models\database\llm_repro\expB_raw\pareto_V1_run09.txt
+================================================================================
+[Dominance] Six of 24 features account for 80% of importance: `pd` (0.312094), `pv` (0.178505), `blm` (0.151432), `com` (0.095113), `sm` (0.058921), and `Em` (0.048412). Importance is strongly concentrated, with `pd` alone contributing roughly 31% and the top three (`pd`, `pv`, `blm`) summing to about 64%.
+
+[Physical Meaning] `pd` and `pv` likely encode A-site and B-site ionic/electronic polarizability contributions, which directly govern dipole response and hence dielectric permittivity. `blm` (B-site electronegativity–Matyonov-Batsanov) and `com` (composition-related) plausibly modulate bond covalency and cation ordering, both of which shift polarizability and dielectric loss behavior.
+
+[Simplification] The long tail—`pm` (0.000758), `asd` (0.00096), `GII` (0.001393), `ssd` (0.00167), `Esd` (0.003693), `d` (0.004818), `vm` (0.005425), `blsd` (0.005798), `devvm` (0.005865), `va` (0.006201), `bvsdm` (0.00726), and `lsd` (0.007849)—can be treated as lower-priority variables for further study, though retaining them may still aid stability given the reported CV variance (R²=0.7472 ± 0.1632).
+
+
+================================================================================
+[116] experiment=B | file=pareto_V2_run06.txt
+judge_votes = CAUSAL|CAUSAL|CAUSAL
+path = E:\Adesk\研二\work\DielectroNet用到的文件\images\new_ML_6models\database\llm_repro\expB_raw\pareto_V2_run06.txt
+================================================================================
+[Dominance] Six features account for 80% of predictive importance: pd (0.312094), pv (0.178505), blm (0.151432), com (0.095113), sm (0.058921), and Em (0.048412). Importance is concentrated, with pd and pv alone contributing ~49% and the top three (pd, pv, blm) contributing ~64%.
+
+[Physical Meaning] pd and pv likely encode packing-density and volume-related descriptors of the perovskite lattice, which govern polarizability and ionic displacement under an applied field, directly influencing dielectric response. blm, a B-site electronegativity descriptor (Matyonov-Batsanov), affects B–O bond covalency and hence the electronic contribution to polarizability, while com and sm capture compositional and symmetry/structural motifs that modulate dipole ordering.
+
+[Simplification] The long-tail features with importances below ~0.01—including asd (0.00096), pm (0.000758), GII (0.001393), ssd (0.00167), Esd (0.003693), d (0.004818), vm (0.005425), blsd (0.005798), devvm (0.005865), va (0.006201), bvsdm (0.00726), lsd (0.007849), vi (0.008227), and cosd (0.008339)—are candidates for further investigation as lower-priority variables; whether they can be removed without degrading performance requires a separate retraining/ablation experiment.
+
+
+================================================================================
+[119] experiment=B | file=pareto_V2_run09.txt
+judge_votes = ASSOCIATION|CAUSAL|CAUSAL
+path = E:\Adesk\研二\work\DielectroNet用到的文件\images\new_ML_6models\database\llm_repro\expB_raw\pareto_V2_run09.txt
+================================================================================
+[Dominance] Six features account for 80% of predictive importance: pd (0.312094), pv (0.178505), blm (0.151432), com (0.095113), sm (0.058921), and Em (0.048412). Importance is concentrated, with pd and pv alone contributing ~49% and the top three ~64%.
+
+[Physical Meaning] pd and pv likely encode packing/volume-related descriptors tied to polarizability and dipole density, which directly govern dielectric response; blm, a B-site electronegativity term (Matyonov-Batsanov), influences B–O bond covalency and hence ionic/electronic polarizability. com and sm, as compositional/mean descriptors, capture average chemistry that shifts dielectric constant and loss.
+
+[Simplification] Long-tail features such as pm (0.000758), asd (0.00096), GII (0.001393), ssd (0.00167), Esd (0.003693), and d (0.004818) are candidates for lower-priority investigation, but removal should only be adopted if a separate retraining experiment confirms preserved performance.
+
+
+================================================================================
+[198] experiment=D | file=pareto_T0.3_run08.txt
+judge_votes = CAUSAL|CAUSAL|CAUSAL
+path = E:\Adesk\研二\work\DielectroNet用到的文件\images\new_ML_6models\database\llm_repro\expD_raw\pareto_T0.3_run08.txt
+================================================================================
+[Dominance] Six features account for 80% of predictive importance: pd (0.312094), pv (0.178505), blm (0.151432), com (0.095113), sm (0.058921), and Em (0.048412). Importance is highly concentrated, with pd alone contributing 31.2% and the top three features (pd, pv, blm) together accounting for 64.2% of total importance.
+
+[Physical Meaning] pd (0.312094) and pv (0.178505) likely represent packing density and packing volume-related descriptors, which govern how densely atoms or polyhedra pack in the lattice and thus directly influence polarizability and dielectric response. blm (0.151432) relates to B-site electronegativity (Matyonov-Batsanov scale), affecting bond covalency and charge distribution that determine dielectric polarization. com (0.095113) and sm (0.058921) capture compositional and structural means, which set the average chemical environment and bonding characteristics controlling dielectric behavior.
+
+[Simplification] The long tail includes pm (0.000758), asd (0.00096), GII (0.001393), ssd (0.00167), Esd (0.003693), and d (0.004818), all with importance below 0.005. These are candidates for further investigation as lower-priority variables, though removing them would require a separate retraining experiment to confirm whether predictive performance is preserved.
+
+
+================================================================================
+[209] experiment=D | file=pareto_T0.7_run09.txt
+judge_votes = ASSOCIATION|CAUSAL|CAUSAL
+path = E:\Adesk\研二\work\DielectroNet用到的文件\images\new_ML_6models\database\llm_repro\expD_raw\pareto_T0.7_run09.txt
+================================================================================
+[Dominance] Six features account for 80% of predictive importance: pd (0.312094), pv (0.178505), blm (0.151432), com (0.095113), sm (0.058921), and Em (0.048412). Importance is highly concentrated, with the top three features alone (pd, pv, blm) contributing 64.2% and the remaining 18 features collectively accounting for only ~20%.
+
+[Physical Meaning] pd (0.312094) and pv (0.178505), both packing-density-related descriptors, likely capture how atomic packing and free volume govern polarizability and dipolar response, which directly influence dielectric constant and loss. blm (0.151432), a bond-length mismatch or B-site related metric, plausibly encodes lattice distortion and B-site cation disorder that affect polarization mechanisms and dielectric relaxation behavior.
+
+[Simplification] The long tail features—particularly asd (0.00096), pm (0.000758), GII (0.001393), and ssd (0.00167)—are candidates for further investigation as lower-priority variables given their minimal individual contributions. However, whether removing them preserves the nested CV performance (R²=0.7472 ± 0.1632) would require a separate retraining experiment, as low individual importance does not preclude collective or interaction effects.
+

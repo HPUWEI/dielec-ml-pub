@@ -1,0 +1,5 @@
+[Strong Correlations] The two most strongly correlated feature pairs are pm–vm (r=0.993) and vi–vm (r=0.991). These likely co-vary because pm, vm, and vi are all mass/volume-related descriptors of the same perovskite composition — molar mass, molar volume, and ionic volume scale together as the B-site and A-site species change.
+
+[Redundancy] The cluster {pm, vm, vi, m} shows substantial statistical overlap (pm–vm=0.993, vi–vm=0.991, vi–pm=0.984, pm–m=0.982, vm–m=0.96), so these features carry largely shared information; however, correlation alone does not establish that any one of them is removable without testing against the target.
+
+[Design Implication] Given the redundancy in the mass/volume block and the strong negative pd–va relationship (r=−0.806), a compact informative set would pair one representative from {pm, vm, vi, m} with one of {pd, va}, plus complementary descriptors such as the electronegativity/ionization features (blm, blsd, com, Em, Ev) that are not part of these correlated clusters.

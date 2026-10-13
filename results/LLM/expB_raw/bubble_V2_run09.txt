@@ -1,0 +1,5 @@
+[Strong Correlations] The two most strongly correlated pairs are pm–vm (r=0.993) and vi–vm (r=0.991), with vi–pm (r=0.984) close behind. These likely co-vary because pm (A-site/B-site mass-related descriptor), vm (molar/unit-cell volume), and vi (ionic volume) all scale with the size and mass of the constituent ions, so larger/heavier ions simultaneously raise mass and volume terms.
+
+[Redundancy] The cluster {pm, vm, vi, m} shows near-collinear statistical information (pm–vm 0.993, vi–vm 0.991, vi–pm 0.984, pm–m 0.982, vm–m 0.96), and pd–va (r=-0.806) is a strong inverse pair. This overlap suggests these features are not statistically independent, but removal cannot be justified from correlation alone since each may still contribute unique nonlinear signal to the Gradient Boosting model.
+
+[Design Implication] For predicting the dielectric property, retain a representative from the pm/vm/vi/m cluster (e.g., vm) plus complementary descriptors such as the electronegativity/ionization features (emb, eab, epa, ieb) and the inversely related pd–va pair, since these capture size/volume versus bonding/electronic character rather than duplicating the same variance.

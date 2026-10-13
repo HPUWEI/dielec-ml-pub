@@ -1,0 +1,5 @@
+[Strong Correlations] The two strongest pairs are pm–vm (r = 0.993) and vi–vm (r = 0.991), followed closely by vi–pm (r = 0.984). These likely co-vary because pm, vm, and vi are all size/volume-related descriptors of the perovskite unit cell, so a larger A- or B-site cation expands the cell and simultaneously raises molar and ionic volume.
+
+[Redundancy] pm, vm, vi, and m form a tightly overlapping block (pm–vm = 0.993, vi–vm = 0.991, vi–pm = 0.984, pm–m = 0.982, vm–m = 0.96), and pd–va (r = −0.806) is a strong inverse pair. This overlap means these features carry largely shared statistical information, but removal of any single feature should not be assumed from correlation alone and would need to be tested against the model's R²/RMSE.
+
+[Design Implication] Because the size/volume block (pm, vm, vi, m) is nearly collinear, a more informative feature set for the dielectric target would pair one representative from that block (e.g., vm) with the distinct, less redundant descriptors such as the electronegativity/ionization-energy features (blm, blsd, Em, Ev, Esd, bvsdm) and the inversely related pd/va pair, rather than including all of pm, vm, vi, and m together.

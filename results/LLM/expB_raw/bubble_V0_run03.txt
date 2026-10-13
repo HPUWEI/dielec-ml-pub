@@ -1,0 +1,5 @@
+[Strong Correlations] The two most strongly correlated pairs are pm–vm (r=0.993) and vi–vm (r=0.991). These likely co-vary because pm (A-site-related mass/parameter), vm (unit-cell or molar volume), and vi (ionic volume) all scale with the size and packing of the perovskite lattice, so larger A/B-site species tend to increase both mass and volume together.
+
+[Redundancy] pm, vm, vi, and m form a tightly overlapping block (pm–vm 0.993, vi–vm 0.991, vi–pm 0.984, pm–m 0.982, vm–m 0.96), and pd–va are strongly anti-correlated (r=-0.806). These features carry largely shared statistical information, but removal of any one cannot be justified from correlation alone and would require validation against the model's R²/RMSE.
+
+[Design Implication] Given this redundancy, a compact informative set could pair one representative from the pm/vm/vi/m volume-mass block (e.g., vm) with pd and va to capture the opposing structural/electronic axis (r=-0.806), while retaining chemically distinct descriptors such as the electronegativity and ionization-energy features (blm, blsd, Em, Ev, Esd) that are not strongly collinear with the volume block.
